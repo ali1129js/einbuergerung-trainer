@@ -34,7 +34,7 @@ the verified answer.
 
 **Disagreements with the verified answer: none.**
 
-### Time-sensitive (why says "Check before the test"; facts checked on 27 Oct 2026)
+### Time-sensitive (why states the current fact "As of ..."; facts checked on 27 Oct 2026)
 
 | Question | Current fact (Oct 2026) | Source checked | Risk before 8 Dec 2026 |
 |---|---|---|---|
@@ -65,7 +65,7 @@ If BAMF publishes a new catalogue before the test, re-run the data scripts and c
 
 ## Batch 5: G131 to G210
 
-No disagreements with the verified answer key. No question in this range is time-sensitive: they cover law, courts and history (1933 to 1990), so none needs "check before the test". The four picture questions (G176, G181, G187, G209) were explained after viewing the images; tests check that each why describes its picture and that 16 history questions give the key date.
+No disagreements with the verified answer key. No question in this range is time-sensitive: they cover law, courts and history (1933 to 1990), so none needs an "As of" date. The four picture questions (G176, G181, G187, G209) were explained after viewing the images; tests check that each why describes its picture and that 16 history questions give the key date.
 
 Nuance notes (answers unchanged):
 - G173: "Gründungsmitglied der EU" is right in both senses: West Germany co-founded the EEC (Treaties of Rome, 1957) and was one of the 12 states that founded the EU in 1993. It joined NATO only in 1955 and the UN in 1973.
@@ -80,7 +80,7 @@ Nuance notes (answers unchanged):
 
 No disagreements with the verified answer key. All 310 questions now have why/trap/trick.
 
-Time-sensitive facts, verified on 27 Oct 2026 (each why says "As of October 2026 ... Check before the test."):
+Time-sensitive facts, verified on 27 Oct 2026 (each why says "As of October 2026 ..."):
 
 | Id | Catalogue answer | Current fact | Source |
 |---|---|---|---|
@@ -98,3 +98,6 @@ Nuance notes (answers unchanged):
 - G230: The European Parliament was last elected in 2024; the next election is in 2029.
 - G245: The answer turns on Anne being under 14 (criminal protection of children); no article cited.
 - G226: Bild 3 is the UN flag; I did not identify Bild 4, so the trap just says it is not the EU flag.
+
+
+Note (27 Oct 2026): the "Check before the test." sentence was removed from all 10 time-sensitive explanations at Ali's request; the "As of" facts remain. Re-check the facts in the tables above before 8 Dec 2026.

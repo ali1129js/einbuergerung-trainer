@@ -80,11 +80,11 @@ describe('explanations for all 310 questions (Batches 3-6)', () => {
   });
   // Questions whose answer depends on who is in office or current figures.
   const TIME_SENSITIVE = ['G72', 'G73', 'G75', 'G213', 'G236', 'G297', 'BB3', 'BB4', 'BB7', 'BB9'];
-  it.each(TIME_SENSITIVE)('%s states the current fact and says "check before the test"', (id) => {
+  it.each(TIME_SENSITIVE)('%s states the current fact without a "check before the test" note', (id) => {
     const why = byId.get(id)?.explanation?.why ?? '';
     expect(why).toMatch(/As of \w+ \d{4}/);
     if (id.startsWith('BB') || ['G213', 'G236', 'G297'].includes(id)) expect(why).toContain('As of October 2026');
-    expect(why.toLowerCase()).toContain('check before the test');
+    expect(why).not.toMatch(/check\b[^.]*before (the|your) (test|exam)/i);
     const q = byId.get(id)!;
     const answer = q.options[q.answerIndex]!.replace(/\.$/, '');
     for (const part of answer.split(/ und /)) expect(why).toContain(part.trim());
@@ -117,6 +117,9 @@ describe('explanations for all 310 questions (Batches 3-6)', () => {
   it.each(Object.keys(DATES))('%s gives the key date', (id) => {
     const why = byId.get(id)?.explanation?.why ?? '';
     for (const d of DATES[id]!) expect(why).toContain(d);
+  });
+  it('no explanation contains a "check before the test" note', () => {
+    for (const q of qs) for (const v of Object.values(q.explanation ?? {})) expect(v).not.toMatch(/check\b[^.]*before (the|your) (test|exam)/i);
   });
   it('explanations contain no em or en dashes', () => {
     for (const q of qs) for (const v of Object.values(q.explanation ?? {})) expect(v).not.toMatch(/[\u2013\u2014]/);
