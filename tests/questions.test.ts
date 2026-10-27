@@ -60,8 +60,8 @@ describe('explanation field', () => {
   });
 });
 
-describe('explanations G1-G130 (Batches 3-4)', () => {
-  const target = Array.from({ length: 130 }, (_, i) => `G${i + 1}`);
+describe('explanations G1-G210 (Batches 3-5)', () => {
+  const target = Array.from({ length: 210 }, (_, i) => `G${i + 1}`);
   const byId = new Map(qs.map((q) => [q.id, q]));
   it.each(target)('%s has why, trap and trick', (id) => {
     const e = byId.get(id)?.explanation;
@@ -80,6 +80,29 @@ describe('explanations G1-G130 (Batches 3-4)', () => {
     const q = byId.get(id)!;
     const answer = q.options[q.answerIndex]!.replace(/\.$/, '');
     for (const part of answer.split(/ und /)) expect(why).toContain(part.trim());
+  });
+  // Batch 5: picture questions must describe what the picture shows.
+  const PICTURES: Record<string, RegExp> = {
+    G176: /map/i,
+    G181: /photo/i,
+    G187: /hammer, compass/i,
+    G209: /Bild 4.*hammer and compass/i,
+  };
+  it.each(Object.keys(PICTURES))('%s describes its picture', (id) => {
+    const q = byId.get(id)!;
+    expect(q.image).toBeDefined();
+    expect(q.explanation?.why).toMatch(PICTURES[id]!);
+  });
+  // Batch 5: history questions must give the key date in the why.
+  const DATES: Record<string, string[]> = {
+    G152: ['1933', '1945'], G153: ['8 May 1945'], G155: ['1933', '1945'], G156: ['1933'],
+    G162: ['20 July 1944'], G163: ['1938'], G164: ['9 November 1938'], G169: ['1949'],
+    G174: ['7 October 1949'], G186: ['17 June 1953'], G188: ['1961'], G189: ['1961'],
+    G191: ['9 November 1989'], G194: ['3 October', '1990'], G204: ['3 October 1990'], G210: ['17 June 1953'],
+  };
+  it.each(Object.keys(DATES))('%s gives the key date', (id) => {
+    const why = byId.get(id)?.explanation?.why ?? '';
+    for (const d of DATES[id]!) expect(why).toContain(d);
   });
   it('explanations contain no em or en dashes', () => {
     for (const q of qs) for (const v of Object.values(q.explanation ?? {})) expect(v).not.toMatch(/[\u2013\u2014]/);

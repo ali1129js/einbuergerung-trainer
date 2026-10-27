@@ -648,5 +648,405 @@
     "why": "Ballot 1 is valid because it has exactly one cross for a candidate (Erststimme) and one for a party (Zweitstimme); splitting them between parties is allowed.",
     "trap": "Ballot 2 is tempting because it also has two crosses, but both are in the Zweitstimme column, which makes the Zweitstimme invalid.",
     "trick": "One cross left, one cross right."
+  },
+  "G131": {
+    "why": "A Bürgermeister is the head of a town or municipality (Gemeinde).",
+    "trap": "'Die/der Vorsitzende einer Partei' is tempting because mayors are often party politicians, but leading a party is a different role.",
+    "trick": "Bürger + Meister = master of the citizens of a town."
+  },
+  "G132": {
+    "why": "Ehrenamtlich means working voluntarily and unpaid, for example in clubs, associations or the volunteer fire brigade.",
+    "trap": "Working in a hospital is tempting because many volunteers help there, but the option says they earn money, so it is not ehrenamtlich.",
+    "trick": "Ehrenamt = honour job: you get thanks, not pay."
+  },
+  "G133": {
+    "why": "Postal voting (Briefwahl) is allowed in Bundestag and Landtag elections.",
+    "trap": "'Der Ehemann wählt für seine Frau mit' may seem harmless, but every vote is personal and secret; nobody may vote for someone else.",
+    "trick": "No time on election day? Vote by post."
+  },
+  "G134": {
+    "why": "Joining or founding a citizens' initiative (Bürgerinitiative) is a legal, democratic way to fight for a local cause like a bus line.",
+    "trap": "The Finanzamt option is tempting because you pay taxes, but paying taxes gives you no right to a particular bus line.",
+    "trick": "Local problem, local initiative."
+  },
+  "G135": {
+    "why": "Trade unions represent employees (Arbeitnehmer).",
+    "trap": "Selbstständige is tempting because they also work, but self-employed people are not employees and unions bargain with employers on behalf of staff.",
+    "trick": "Union = employees; Arbeitgeberverband = employers."
+  },
+  "G136": {
+    "why": "The labour court (Arbeitsgericht) handles disputes between employers and employees, such as an unjustified dismissal.",
+    "trap": "A wrong Nebenkostenabrechnung is tempting because it is also a money dispute, but it is a tenancy matter for the Amtsgericht.",
+    "trick": "Arbeit problem = Arbeitsgericht."
+  },
+  "G137": {
+    "why": "Conflicts at work go to the Arbeitsgericht.",
+    "trap": "Amtsgericht is tempting because it is the general local court, but labour disputes have their own court.",
+    "trick": "Same as Question 136: work goes to the Arbeitsgericht."
+  },
+  "G138": {
+    "why": "Against an unfair dismissal you file a Kündigungsschutzklage at the labour court, normally within three weeks of receiving the notice.",
+    "trap": "Reporting the employer to the police is tempting, but an unfair dismissal is a civil labour matter, not a crime.",
+    "trick": "Dismissed unfairly? Three weeks to sue."
+  },
+  "G139": {
+    "why": "A criminal trial happens when someone is charged with a crime.",
+    "trap": "Wrong parking is tempting because you get towed and fined, but that is an administrative offence, normally without a trial.",
+    "trick": "Crime + charge = court."
+  },
+  "G140": {
+    "why": "A Schöffe is a lay judge who decides on guilt and sentence together with professional judges.",
+    "trap": "'Verteidigt den Angeklagten' is tempting because Schöffen sit in criminal trials, but defending is the lawyer's job.",
+    "trick": "Schöffe = citizen on the judges' bench."
+  },
+  "G141": {
+    "why": "A Rechtsanwalt (lawyer) advises people on legal questions and represents them in court.",
+    "trap": "Staatsanwalt is tempting because of the word 'Anwalt', but the public prosecutor represents the state and prosecutes crimes.",
+    "trick": "Rechtsanwalt works for you; Staatsanwalt works for the state."
+  },
+  "G142": {
+    "why": "A judge works at a court and delivers judgments.",
+    "trap": "'Vertritt Bürgerinnen und Bürger vor einem Gericht' is tempting, but representing people is the lawyer's job; the judge must stay neutral.",
+    "trick": "Judge judges, lawyer represents."
+  },
+  "G143": {
+    "why": "Judges belong to the judiciary, the Judikative.",
+    "trap": "Exekutive is tempting because judges are paid by the state, but courts are independent of the government (Art. 97 GG).",
+    "trick": "Judge = Judikative: both start with J."
+  },
+  "G144": {
+    "why": "Judges exercise the judicial power (rechtsprechende Gewalt) (Art. 92 GG).",
+    "trap": "Vollziehende Gewalt is tempting, but that is the executive: government, police and administration.",
+    "trick": "Richter spricht Recht = rechtsprechende Gewalt."
+  },
+  "G145": {
+    "why": "Judges work for the Judikative, the judicial branch of state power.",
+    "trap": "Presse is tempting as the 'fourth power', but the press is not a branch of the state.",
+    "trick": "Same as Question 143: J for judge and Judikative."
+  },
+  "G146": {
+    "why": "A court case is called a Prozess.",
+    "trap": "Prozedur is tempting because it sounds similar, but it means a procedure in general, not a trial.",
+    "trick": "Prozess = process = trial."
+  },
+  "G147": {
+    "why": "A judge's work is 'Recht sprechen', deciding cases according to the law.",
+    "trap": "'Gesetze erlassen' is tempting because judges work with laws, but parliament makes them.",
+    "trick": "Richter = Rechtsprechung."
+  },
+  "G148": {
+    "why": "The police make sure laws are followed and protect public safety.",
+    "trap": "'Das Land zu verteidigen' is tempting, but defending the country is the job of the Bundeswehr.",
+    "trick": "Police inside, Bundeswehr outside."
+  },
+  "G149": {
+    "why": "Denying the Holocaust is antisemitic, and in Germany it is also a crime.",
+    "trap": "'Die israelische Regierung kritisieren' is tempting, but criticising a government's policy is not antisemitic in itself.",
+    "trick": "Denying the Holocaust = antisemitism."
+  },
+  "G150": {
+    "why": "A Gerichtsschöffe is an honorary (volunteer) judge.",
+    "trap": "'Eine Person, die Jura studiert hat' is tempting, but Schöffen are ordinary citizens without legal training.",
+    "trick": "Schöffe = Ehrenamt on the bench."
+  },
+  "G151": {
+    "why": "The DDR built the Berlin Wall in August 1961 to stop its citizens fleeing to the West.",
+    "trap": "Die Bundesrepublik Deutschland is tempting because the Wall surrounded West Berlin, but the East built it.",
+    "trick": "East built the Wall to keep its people in."
+  },
+  "G152": {
+    "why": "The National Socialists under Hitler ruled from 1933 to 1945.",
+    "trap": "1932 bis 1950 is tempting because the Nazis were already strong in 1932, but Hitler only became Chancellor in January 1933.",
+    "trick": "Nazi rule: 33 to 45, twelve years."
+  },
+  "G153": {
+    "why": "On 8 May 1945 Germany's unconditional surrender came into force, ending the Second World War in Europe.",
+    "trap": "'Tod Adolf Hitlers' is tempting because it was close in time, but Hitler died on 30 April 1945.",
+    "trick": "8 May = Kriegsende in Europe."
+  },
+  "G154": {
+    "why": "The Second World War ended in 1945.",
+    "trap": "1949 is tempting because both German states were founded then, but the war had ended four years earlier.",
+    "trick": "War ends 45, new states 49."
+  },
+  "G155": {
+    "why": "The National Socialists were in power from 1933 to 1945.",
+    "trap": "1921 bis 1934 is tempting because Hitler led the NSDAP from 1921, but the party only came to power in 1933.",
+    "trick": "Same as Question 152: 1933 to 1945."
+  },
+  "G156": {
+    "why": "Hitler was appointed Reichskanzler on 30 January 1933.",
+    "trap": "1923 is tempting because of Hitler's failed putsch in Munich that year, but it did not bring him to power.",
+    "trick": "33 = Machtergreifung."
+  },
+  "G157": {
+    "why": "In 1933 the National Socialists set up a dictatorship and quickly abolished democracy.",
+    "trap": "Monarchie is tempting because the Nazis called their state a 'Reich', but there was no king or emperor.",
+    "trick": "Hitler = Diktator = Diktatur."
+  },
+  "G158": {
+    "why": "The 'Third Reich' was a dictatorship.",
+    "trap": "Räterepublik is tempting because it existed in Germany too, but that was a short-lived socialist experiment in 1918/19 (e.g. in Munich).",
+    "trick": "'Reich' sounds royal, but it was a Diktatur."
+  },
+  "G159": {
+    "why": "There were no free elections under National Socialism.",
+    "trap": "Pressezensur can catch you if you read too fast: censorship did exist, and the question asks what did NOT exist.",
+    "trick": "Read 'nicht' carefully: free elections did not exist."
+  },
+  "G160": {
+    "why": "The Second World War lasted from 1939 (German attack on Poland) to 1945.",
+    "trap": "Der Erste Weltkrieg is tempting if you mix up the dates, but it lasted from 1914 to 1918.",
+    "trick": "WW1 14 to 18, WW2 39 to 45."
+  },
+  "G161": {
+    "why": "The Nazi state was based on state racism, above all the persecution and murder of Jews.",
+    "trap": "Meinungsfreiheit is tempting because it is a core value today, but the Nazis abolished free speech, along with religious freedom and democracy.",
+    "trick": "NS-Staat = racism by law."
+  },
+  "G162": {
+    "why": "Claus Schenk Graf von Stauffenberg planted a bomb to kill Hitler on 20 July 1944; it failed and he was executed.",
+    "trap": "'Den Aufbau der Wehrmacht' is tempting because Stauffenberg was an army officer, but he is remembered for the resistance.",
+    "trick": "20 July 1944 = Stauffenberg's bomb."
+  },
+  "G163": {
+    "why": "In November 1938 the Nazis and their followers destroyed synagogues and Jewish shops in the Novemberpogrome.",
+    "trap": "1945 is tempting as the end of Nazi rule, but the pogroms were in 1938.",
+    "trick": "9 November 1938: the pogrom night."
+  },
+  "G164": {
+    "why": "On 9 November 1938 synagogues and Jewish shops were destroyed across Germany (the Novemberpogrome).",
+    "trap": "The attack on Poland is tempting, but the war began on 1 September 1939.",
+    "trick": "9 November: 1938 pogroms, 1989 the Wall falls."
+  },
+  "G165": {
+    "why": "Konrad Adenauer (CDU) was the first Federal Chancellor, from 1949 to 1963.",
+    "trap": "Willy Brandt is tempting because he is very famous, but he was Chancellor from 1969 to 1974.",
+    "trick": "A for Adenauer, A for the first."
+  },
+  "G166": {
+    "why": "'Wir sind das Volk' was the slogan of the Monday demonstrations in the DDR in 1989, starting in Leipzig.",
+    "trap": "The 1953 uprising is tempting because it was also in the DDR, but the slogan belongs to 1989.",
+    "trick": "Monday + Leipzig + 1989 = 'Wir sind das Volk'."
+  },
+  "G167": {
+    "why": "The four Allied occupying powers were the USA, the Soviet Union, Great Britain and France.",
+    "trap": "'Sowjetunion, Großbritannien, Polen, Schweden' is tempting because two names are right, but Poland and Sweden were not occupying powers.",
+    "trick": "Big Four: USA, UdSSR, UK, France."
+  },
+  "G168": {
+    "why": "Japan was not an occupying power in Germany; it fought on Germany's side in the war.",
+    "trap": "Frankreich is tempting because it was defeated in 1940, but it later received its own occupation zone.",
+    "trick": "Japan was Germany's ally, not an occupier."
+  },
+  "G169": {
+    "why": "The Federal Republic was founded in 1949, when the Grundgesetz came into force in May.",
+    "trap": "1945 is tempting because the war ended then, but Germany was first governed by the Allies for four years.",
+    "trick": "Grundgesetz 1949 = Bundesrepublik 1949."
+  },
+  "G170": {
+    "why": "The Nazis banned all other political parties in 1933.",
+    "trap": "Freie Entfaltung der Persönlichkeit is tempting because it sounds like a basic principle, but it is a right from the Grundgesetz (Art. 2 GG), which did not exist under the Nazis.",
+    "trick": "Nazi Germany: one party only."
+  },
+  "G171": {
+    "why": "In the soziale Marktwirtschaft the economy follows supply and demand, but the state ensures social balance.",
+    "trap": "'Steuert sich allein nach Angebot und Nachfrage' is tempting, but that is a pure free market without the social part.",
+    "trick": "Market + social safety net."
+  },
+  "G172": {
+    "why": "The DDR was founded in the Soviet occupation zone in October 1949.",
+    "trap": "Die amerikanische Besatzungszone is tempting, but the Western zones became the Bundesrepublik.",
+    "trick": "Soviet zone became the DDR."
+  },
+  "G173": {
+    "why": "West Germany was one of the six founding members of the European communities in 1957 (Treaties of Rome), and of the EU in 1993.",
+    "trap": "NATO is tempting, but NATO was founded in 1949 and West Germany only joined in 1955.",
+    "trick": "Rome 1957: Germany was there from the start."
+  },
+  "G174": {
+    "why": "The DDR was founded on 7 October 1949, a few months after the Bundesrepublik.",
+    "trap": "1953 is tempting because of the uprising of 17 June 1953, but the state already existed then.",
+    "trick": "1949: two German states in one year."
+  },
+  "G175": {
+    "why": "After the Second World War Germany was divided into four occupation zones.",
+    "trap": "3 is tempting because the 'Big Three' (USA, Britain, Soviet Union) led the Allies, but France also received a zone.",
+    "trick": "Four powers, four zones."
+  },
+  "G176": {
+    "why": "On the map, zone 1 (north-west) was British, zone 2 (east) Soviet, zone 3 (south-east, Bavaria and Hesse) American and zone 4 (south-west) French.",
+    "trap": "The option with 2=USA and 3=Sowjetunion is tempting if you don't picture the map, but the Soviet zone was the eastern one that became the DDR.",
+    "trick": "Clockwise from the north-west: Britain, Soviets, USA, France."
+  },
+  "G177": {
+    "why": "Berlin was divided into four sectors, one for each occupying power.",
+    "trap": "Frankfurt/Oder is tempting because it lies on the border with Poland, but only Berlin was divided into sectors.",
+    "trick": "Four zones in Germany, four sectors in Berlin."
+  },
+  "G178": {
+    "why": "The Soviet Union blocked all land routes to West Berlin, so the Western Allies supplied the city by air (Berlin Blockade, 1948 to 1949).",
+    "trap": "'Für Großbritannien war die Versorgung über die Luftbrücke schneller' is tempting, but flying was the only option because the roads and railways were blocked.",
+    "trick": "Blockade on the ground, bridge in the air."
+  },
+  "G179": {
+    "why": "The war in Europe officially ended with Germany's unconditional surrender in May 1945.",
+    "trap": "'Mit dem Tod Adolf Hitlers' is tempting, but the fighting went on for over a week after his death on 30 April 1945.",
+    "trick": "Unconditional surrender, 8 May 1945."
+  },
+  "G180": {
+    "why": "Konrad Adenauer was the first Federal Chancellor (1949 to 1963).",
+    "trap": "Ludwig Erhard is tempting because he was the second Chancellor and the father of the Wirtschaftswunder, but he came after Adenauer.",
+    "trick": "Same as Question 165: Adenauer first, Erhard second."
+  },
+  "G181": {
+    "why": "The photo shows Willy Brandt kneeling at the memorial to the Warsaw Ghetto Uprising in 1970, asking Poland and the Polish Jews for forgiveness.",
+    "trap": "'Er sprach ein Gebet am Grab des Unbekannten Soldaten' is tempting because he also laid a wreath there that day, but the famous kneeling was at the Ghetto memorial.",
+    "trick": "Brandt knelt to say sorry."
+  },
+  "G182": {
+    "why": "The Jewish house of prayer is the synagogue.",
+    "trap": "Basilika is tempting because it is an old religious building, but it is a type of church.",
+    "trick": "Synagogue: Jewish; Moschee: Muslim; Kirche: Christian."
+  },
+  "G183": {
+    "why": "The 'Wirtschaftswunder', West Germany's fast economic recovery, took place in the 1950s.",
+    "trap": "The 40s are tempting because the currency reform was in 1948, but the boom itself came in the 1950s.",
+    "trick": "Fifties = boom years."
+  },
+  "G184": {
+    "why": "The State of Israel was founded in 1948 on the basis of UN Resolution 181 of November 1947, which proposed dividing Palestine.",
+    "trap": "'Ein Beschluss des Zionistenkongresses' is tempting because the Zionist movement called for a Jewish state, but the legal basis was the UN decision.",
+    "trick": "UN 1947, Israel 1948."
+  },
+  "G185": {
+    "why": "'Iron Curtain' meant the closed border of the Warsaw Pact countries against the West during the Cold War.",
+    "trap": "'Nazi-Deutschlands gegen die Alliierten' is tempting because it sounds military, but the term belongs to the Cold War after 1945.",
+    "trick": "Iron Curtain = East closed off from West."
+  },
+  "G186": {
+    "why": "The uprising in the DDR was on 17 June 1953; West Germany marked the day as a public holiday until 1990.",
+    "trap": "9. November is tempting because it is a key date in German history, but it relates to 1918, 1938 and 1989.",
+    "trick": "17 June = 1953 uprising."
+  },
+  "G187": {
+    "why": "The flag shows black, red and gold with a hammer, compass and a wreath of wheat: that is the flag of the DDR.",
+    "trap": "Bundesrepublik Deutschland is tempting because of the same colours, but the West German flag has no emblem.",
+    "trick": "Tools on the flag = DDR."
+  },
+  "G188": {
+    "why": "The Berlin Wall was built in 1961, starting on 13 August.",
+    "trap": "1953 is tempting because of the uprising in the DDR, but the Wall came eight years later.",
+    "trick": "13 August 1961: the Wall goes up."
+  },
+  "G189": {
+    "why": "The DDR built the Berlin Wall in 1961.",
+    "trap": "1990 is tempting because it is a key DDR year, but that was reunification, after the Wall had already fallen.",
+    "trick": "Wall up 1961, down 1989."
+  },
+  "G190": {
+    "why": "DDR stands for Deutsche Demokratische Republik.",
+    "trap": "'Dritte Deutsche Republik' is tempting because the letters fit, but the DDR called itself 'democratic', even though it was not.",
+    "trick": "Demokratisch in name only."
+  },
+  "G191": {
+    "why": "The Wall was opened on 9 November 1989.",
+    "trap": "1987 is tempting because of Reagan's 'Tear down this wall' speech in Berlin that year, but the Wall stood until 1989.",
+    "trick": "9 November 1989: the Wall falls."
+  },
+  "G192": {
+    "why": "Brandenburg was part of the DDR; Bayern, Saarland and Hessen were in West Germany.",
+    "trap": "Saarland is tempting because it joined West Germany late (1957), but it was never part of the DDR.",
+    "trick": "Ali's own Land, Brandenburg, is one of the five eastern Länder."
+  },
+  "G193": {
+    "why": "From 1961 to 1989 Berlin was divided by the Wall.",
+    "trap": "'Nur mit dem Flugzeug erreichbar' is tempting because of the 1948/49 airlift, but in this period you could reach West Berlin by road and rail through the DDR.",
+    "trick": "61 to 89 = divided Berlin."
+  },
+  "G194": {
+    "why": "3 October is the Tag der Deutschen Einheit, marking reunification in 1990.",
+    "trap": "Nation is tempting because many countries celebrate a 'national day', but the German name is Tag der Deutschen Einheit.",
+    "trick": "3 October 1990 = unity."
+  },
+  "G195": {
+    "why": "Sachsen-Anhalt was part of the DDR.",
+    "trap": "Hessen is tempting because it lies in the middle of Germany, but it belonged to West Germany.",
+    "trick": "Five eastern Länder: Brandenburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt, Thüringen."
+  },
+  "G196": {
+    "why": "In autumn 1989 the DDR changed from a dictatorship to a democracy, so the time is called 'die Wende' (the turn).",
+    "trap": "'Von einer liberalen Marktwirtschaft zum Sozialismus' is tempting because it mentions both systems, but it describes the change the wrong way round.",
+    "trick": "Wende = turn from dictatorship to democracy."
+  },
+  "G197": {
+    "why": "Thüringen was part of the DDR.",
+    "trap": "Hessen is tempting because it borders Thüringen, but it was in West Germany.",
+    "trick": "Same five eastern Länder as Question 195."
+  },
+  "G198": {
+    "why": "Sachsen was part of the DDR.",
+    "trap": "Niedersachsen is tempting because of the name 'Sachsen', but it was in West Germany.",
+    "trick": "Sachsen east, Niedersachsen west."
+  },
+  "G199": {
+    "why": "'Stasi' was short for Ministerium für Staatssicherheit, the DDR's secret police.",
+    "trap": "'Eine regierende Partei' is tempting, but the ruling party was the SED; the Stasi was its security service.",
+    "trick": "Sta-Si = Staatssicherheit."
+  },
+  "G200": {
+    "why": "Mecklenburg-Vorpommern was part of the DDR.",
+    "trap": "Schleswig-Holstein is tempting because it is also on the Baltic coast, but it was in West Germany.",
+    "trick": "Baltic coast: Schleswig-Holstein west, Mecklenburg-Vorpommern east."
+  },
+  "G201": {
+    "why": "The five eastern Länder are Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt and Thüringen.",
+    "trap": "Option D is tempting because it starts with Sachsen, Thüringen and Brandenburg, but Hessen and Niedersachsen were western.",
+    "trick": "Each list must contain only eastern Länder: one western name rules it out."
+  },
+  "G202": {
+    "why": "In the Cold War the DDR belonged to the Warsaw Pact, the Eastern bloc alliance led by the Soviet Union.",
+    "trap": "Die blockfreien Staaten is tempting if you think the DDR stayed neutral, but it was firmly in the Eastern bloc.",
+    "trick": "DDR = East = Warsaw Pact."
+  },
+  "G203": {
+    "why": "The DDR had a planned economy (Planwirtschaft), run by the state.",
+    "trap": "'Angebot und Nachfrage' is tempting as a description of an economy, but that is how a market economy works.",
+    "trick": "East: Plan; West: Markt."
+  },
+  "G204": {
+    "why": "On 3 October 1990 the DDR, with the five re-created eastern Länder, joined the Federal Republic.",
+    "trap": "'Die Bundesrepublik hat die DDR besetzt' is wrong: reunification was a peaceful, voluntary accession decided by the freely elected Volkskammer.",
+    "trick": "East joined West, peacefully."
+  },
+  "G205": {
+    "why": "When the DDR joined the Federal Republic, the eastern Länder automatically became part of the European Community, today's EU.",
+    "trap": "Europäische Verteidigungsgemeinschaft is tempting because it sounds European, but that defence community was planned in the 1950s and never came into being.",
+    "trick": "Joining West Germany meant joining the EU."
+  },
+  "G206": {
+    "why": "Stolpersteine are small brass plaques in the pavement in front of houses where victims of National Socialism lived, started by the artist Gunter Demnig.",
+    "trap": "'An bekannte jüdische Musiker' is tempting because many victims were Jewish, but the stones remember ordinary people, Jewish and non-Jewish victims alike.",
+    "trick": "You 'stumble' over a name and remember a victim."
+  },
+  "G207": {
+    "why": "The DDR was a member of the Warsaw Pact military alliance.",
+    "trap": "NATO is tempting because it is the best-known alliance, but West Germany was in NATO, not the DDR.",
+    "trick": "Same as Question 202: DDR = Warsaw Pact."
+  },
+  "G208": {
+    "why": "The Stasi was the DDR's secret police and intelligence service.",
+    "trap": "'Der Geheimdienst im Dritten Reich' is tempting, but the Nazi secret police was the Gestapo.",
+    "trick": "Gestapo = Nazis, Stasi = DDR."
+  },
+  "G209": {
+    "why": "Bild 4 shows the DDR coat of arms: hammer and compass surrounded by a wreath of wheat with a black, red and gold ribbon.",
+    "trap": "Bild 1 is tempting because it is also black, red and gold, but the eagle is the coat of arms of the Bundesrepublik.",
+    "trick": "Tools = DDR, eagle = Bundesrepublik."
+  },
+  "G210": {
+    "why": "On 17 June 1953 there were strikes and a popular uprising across the DDR, which Soviet troops crushed.",
+    "trap": "'Der feierliche Beitritt zum Warschauer Pakt' is tempting, but the Warsaw Pact was founded only in 1955.",
+    "trick": "17 June 1953: workers rise up."
   }
 }

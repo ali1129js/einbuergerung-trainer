@@ -62,3 +62,16 @@ If BAMF publishes a new catalogue before the test, re-run the data scripts and c
 - **G130.** Same note as in CONFLICTS.md: the online test centre shows a different ballot drawing than
   the 2025 PDF; the explanation describes the PDF picture (ballot 1 = one Erststimme for SPD, one
   Zweitstimme for CDU).
+
+## Batch 5: G131 to G210
+
+No disagreements with the verified answer key. No question in this range is time-sensitive: they cover law, courts and history (1933 to 1990), so none needs "check before the test". The four picture questions (G176, G181, G187, G209) were explained after viewing the images; tests check that each why describes its picture and that 16 history questions give the key date.
+
+Nuance notes (answers unchanged):
+- G173: "Gründungsmitglied der EU" is right in both senses: West Germany co-founded the EEC (Treaties of Rome, 1957) and was one of the 12 states that founded the EU in 1993. It joined NATO only in 1955 and the UN in 1973.
+- G184: The UN resolution was Resolution 181 (29 Nov 1947), a partition plan; Israel declared independence on 14 May 1948. Historians debate how far a General Assembly recommendation is a "legal basis", but the catalogue answer is the UN option.
+- G186: 17 June was West Germany's public holiday (Tag der deutschen Einheit) from 1954 to 1990.
+- G204: Formally the DDR acceded to the Federal Republic (old Art. 23 GG) after the freely elected Volkskammer voted for it; the five Länder had been re-created just before. The catalogue wording "die fünf östlichen Bundesländer sind beigetreten" is the accepted simplification.
+- G205: In 1990 the body was still the European Community; it became the EU in 1993.
+- G181: Brandt also laid a wreath at the Tomb of the Unknown Soldier that day, which makes option D a real trap; the kneeling was at the Ghetto Heroes memorial.
+- G201: The PDF has the typo "Niedersachen" in option D; kept as in the source.
