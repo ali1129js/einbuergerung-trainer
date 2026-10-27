@@ -1,6 +1,18 @@
 # Einbürgerungstest-Trainer (Brandenburg)
 
-Batch 1: data only, no UI yet.
+Live: [einbuergerung-trainer.vercel.app](https://einbuergerung-trainer.vercel.app)
+
+![Practice mode with instant feedback and an explanation](docs/screenshot.png)
+
+## What I learned
+
+- Data quality is the product. Every answer is checked against two independent sources, and a zod `superRefine` in `src/schema.ts` refuses `verified: true` unless both agree.
+- Tests can guard content, not just code. `tests/questions.test.ts` checks all 310 questions for 4 distinct options, existing image files and a why/trap/trick explanation, and makes time-sensitive answers (who is in office, current figures) name the right answer with an "As of" date.
+- Randomness should be testable. The mock test uses a small seeded PRNG (mulberry32) and a Fisher-Yates shuffle in `src/lib/random.ts`, so test composition is reproducible.
+- Never throw away a user's progress. `src/lib/storage.ts` validates localStorage with zod and keeps corrupt data under a backup key instead of overwriting it.
+- Accessibility is testable too. `tests/theme.test.ts` checks WCAG AA contrast for every theme, and the image lightbox has a focus trap and returns focus on close.
+
+## Data
 
 - `data/questions.json`: 300 general questions plus the 10 for Brandenburg. Question and option wording comes from the BAMF Gesamtfragenkatalog PDF (Stand 07.05.2025), with options in PDF order.
 - `public/img/*.png`: pictures for the 13 image questions, cropped from the PDF.
