@@ -116,6 +116,23 @@ describe("WCAG AA contrast", () => {
       expect(ratio(pal[fg]!, pal[bg]!)).toBeGreaterThanOrEqual(min);
     });
   }
+  // Picture lightbox: the caption and × button use text on surface (covered above); the magnifier hint
+  // is on-accent on accent-bg (covered above) and must stand out from the white picture: either the
+  // badge itself or its surface-coloured ring needs >= 3:1 against the white image backing.
+  it.each(Object.entries(PALETTES))("%s: zoom hint badge is visible on the white picture", (_, pal) => {
+    expect(Math.max(ratio(pal["accent-bg"]!, pal["image-bg"]!), ratio(pal["surface"]!, pal["image-bg"]!))).toBeGreaterThanOrEqual(3);
+  });
+  it.each(Object.entries(PALETTES))("%s: lightbox caption, × button and its focus ring are readable", (_, pal) => {
+    expect(ratio(pal["text"]!, pal["surface"]!)).toBeGreaterThanOrEqual(4.5);
+    expect(ratio(pal["accent"]!, pal["surface"]!)).toBeGreaterThanOrEqual(4.5);
+    expect(ratio(pal["focus"]!, pal["surface"]!)).toBeGreaterThanOrEqual(3);
+  });
+  it("every theme defines a lightbox backdrop", () => {
+    for (const sel of [":root {", ':root[data-theme="dark-blue"] {', ':root[data-theme="dark-grey"] {']) {
+      const start = css.indexOf(sel);
+      expect(css.slice(start, css.indexOf("\n}", start))).toMatch(/--backdrop:\s*rgba\(/);
+    }
+  });
   it("image questions keep a white backing in every theme", () => {
     for (const pal of Object.values(PALETTES)) expect(pal["image-bg"]).toBe("#ffffff");
   });

@@ -28,6 +28,8 @@ npm test
 
 Themes: Light, Dark blue and Dark grey (header half-circle button, or Progress > Appearance). The default follows the device (dark = Dark blue); the choice is stored in localStorage (`einb-trainer.theme.v1`, zod-validated) and applied before first paint by an inline script in index.html. All colours are CSS variables in src/index.css; tests/theme.test.ts checks WCAG AA contrast for every theme.
 
+Pictures: tap or click any question picture (practice, weak questions, mock test and its review) to open it large in an accessible lightbox (role=dialog + aria-modal, focus trap, Esc / backdrop / × to close, focus returns to the picture). The picture sits on a white backing in every theme with its alt text as caption; pinch zoom is not blocked and the mock-test timer keeps running. Tests: tests/lightbox.test.tsx (jsdom + Testing Library).
+
 Vite + React 18 + strict TypeScript, hash routing (wouter). Mobile-first; German question text, English UI.
 
 - `npm run dev` (port 5181) · `npm run build` · `npm run preview` (port 4181) · `npm test`

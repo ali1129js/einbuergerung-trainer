@@ -1,5 +1,6 @@
 import type { Question } from "@/schema";
 import { imageUrl, TOPIC_LABEL } from "@/lib/questions";
+import { ZoomableImage } from "@/components/ZoomableImage";
 
 const KEYS = ["A", "B", "C", "D"];
 
@@ -30,8 +31,7 @@ export function QuestionView({
       </p>
       {q.image && (
         <figure style={{ margin: 0 }}>
-          <img className="q-image" src={imageUrl(q.image)} alt={`Picture for question ${q.id}`}
-            title={q.imageCredit} loading="lazy" />
+          <ZoomableImage className="q-image" src={imageUrl(q.image)} alt={`Picture for question ${q.id}`} title={q.imageCredit} />
         </figure>
       )}
       <ul className="options">

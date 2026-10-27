@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Study app for the German Einb\u00fcrgerungstest (Brandenburg). Batch 1: data only.",
+  "description": "Study app for the German Einbürgerungstest (Brandenburg). Batch 1: data only.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
@@ -14,10 +14,14 @@
     "data:build": "python3 scripts/match_sources.py && python3 scripts/build_questions.py"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@types/jsdom": "^30.0.0",
     "@types/node": "^20.19.43",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^26.1.0",
     "typescript": "5.9",
     "vite": "^6.4.5",
     "vitest": "^4.1.12",
