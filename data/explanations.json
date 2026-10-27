@@ -1,0 +1,652 @@
+{
+  "G1": {
+    "why": "Meinungsfreiheit is protected by Art. 5 GG, so criticising the government publicly is allowed.",
+    "trap": "The Wahlrecht option sounds democratic, but voting is not what the question asks about.",
+    "trick": "Five fingers on a megaphone: Art. 5 = free speech."
+  },
+  "G2": {
+    "why": "Art. 7(2) GG lets parents decide whether their child attends Religionsunterricht; from age 14 the child decides its religion itself.",
+    "trap": "Geschichtsunterricht or Politikunterricht may sound optional, but they are normal compulsory subjects.",
+    "trick": "Religion is the only subject you can opt out of: 14 = the child takes over."
+  },
+  "G3": {
+    "why": "In a Rechtsstaat everyone, including the state itself, is bound by the law (Art. 20(3) GG).",
+    "trap": "'Die Gerichte machen die Gesetze' is wrong: parliament makes laws, courts apply them.",
+    "trick": "Rechtsstaat = nobody stands above the law, not even the state."
+  },
+  "G4": {
+    "why": "Meinungsfreiheit is a basic right in Art. 5 GG.",
+    "trap": "Waffenbesitz sounds like a right because the US constitution has one, but the Grundgesetz does not.",
+    "trick": "Speech yes, weapons no: Germany is not the USA."
+  },
+  "G5": {
+    "why": "A free election means nobody may pressure, bribe or force you how to vote, and voting must not harm you (Art. 38(1) GG).",
+    "trap": "'Alle müssen wählen' is wrong: there is no compulsory voting in Germany, and 'free' includes the freedom not to vote.",
+    "trick": "Free vote = no pressure, no payment, no punishment."
+  },
+  "G6": {
+    "why": "The German constitution is called the Grundgesetz; it was signed and announced on 23 May 1949.",
+    "trap": "'Bundesgesetz' sounds official, but that is just the term for any ordinary federal law.",
+    "trick": "Grund = foundation: the Grundgesetz is the foundation of all other laws."
+  },
+  "G7": {
+    "why": "Freedom of faith and conscience (Glaubens- und Gewissensfreiheit) is guaranteed in Art. 4 GG.",
+    "trap": "A right to Arbeit or Wohnung sounds social, but the Grundgesetz does not guarantee a job or a flat.",
+    "trick": "Art. 4 = faith: believe what you want, 4 ever."
+  },
+  "G8": {
+    "why": "The Grundgesetz guarantees equality before the law, not equal income, so 'everyone should have the same money' is not in it.",
+    "trap": "'Jeder Mensch darf seine Meinung sagen' may look too casual to be constitutional, but it is Art. 5 GG.",
+    "trick": "Equal rights, not equal wallets."
+  },
+  "G9": {
+    "why": "Asylum is a right for people persecuted for political reasons (Art. 16a GG), and German citizens cannot claim asylum in their own country.",
+    "trap": "Schutz der Familie may sound like a special protection, but Art. 6 GG protects every family, German or not.",
+    "trick": "Asyl is only for people who come from outside."
+  },
+  "G10": {
+    "why": "A fine (Geldstrafe) is a normal criminal penalty; the other options violate human dignity.",
+    "trap": "Todesstrafe may seem possible for the worst crimes, but Art. 102 GG says: 'Die Todesstrafe ist abgeschafft.'",
+    "trick": "Pay yes, pain no."
+  },
+  "G11": {
+    "why": "The constitution of the Federal Republic is called the Grundgesetz.",
+    "trap": "'Bundesverfassung' sounds logical (Switzerland's constitution has that name), but Germany's is the Grundgesetz.",
+    "trick": "Same as Question 6: always Grundgesetz."
+  },
+  "G12": {
+    "why": "Press freedom is a basic right (Art. 5(1) GG), and basic rights are protected against being removed by a parliamentary majority.",
+    "trap": "The two-thirds option is tempting because changing the Grundgesetz needs two thirds, but that would also need the Bundesrat (Art. 79(2) GG) and the official answer is that a basic right cannot simply be abolished.",
+    "trick": "Basic rights are locked: no vote opens the lock."
+  },
+  "G13": {
+    "why": "The opposition is every member of parliament who does not belong to the governing party or parties.",
+    "trap": "'Die Fraktion mit den meisten Abgeordneten' is wrong: the biggest group usually leads the government, not the opposition.",
+    "trick": "Opposition = opposite the government benches."
+  },
+  "G14": {
+    "why": "Free speech (Art. 5 GG) covers posting your opinion online.",
+    "trap": "Wearing Nazi, Hamas or IS symbols is not free speech; showing them in public is a crime in Germany.",
+    "trick": "Opinion online: yes. Insults or extremist symbols: no."
+  },
+  "G15": {
+    "why": "The Grundgesetz forbids forced labour (Art. 12 GG); it is only allowed as part of a prison sentence ordered by a court.",
+    "trap": "Militärdienst is tempting, but the Grundgesetz allows it (Art. 12a GG lets men be called up for military service).",
+    "trick": "Free Berufswahl, no Zwangsarbeit: you choose your work."
+  },
+  "G16": {
+    "why": "Free speech has limits where it hurts other people: spreading false factual claims about a person can be a crime (üble Nachrede, Verleumdung).",
+    "trap": "'Kritik am Staat' may sound risky, but criticising the state is exactly what free speech protects.",
+    "trick": "Criticise the state freely, but don't lie about people."
+  },
+  "G17": {
+    "why": "Art. 3 GG says everyone is equal before the law, so the state may not treat citizens unequally.",
+    "trap": "Petitionen might sound like something the state could limit, but Art. 17 GG gives everyone the right to send petitions.",
+    "trick": "The state must treat all citizens equally: Art. 3 = equality."
+  },
+  "G18": {
+    "why": "Art. 1(1) GG says: 'Die Würde des Menschen ist unantastbar.'",
+    "trap": "Das Recht auf Leben is a basic right too, but it is in Art. 2 GG, not Art. 1.",
+    "trick": "Number 1 comes first: human dignity is Art. 1."
+  },
+  "G19": {
+    "why": "Freizügigkeit (Art. 11 GG) is the right of Germans to choose where they live and to move freely anywhere in Germany.",
+    "trap": "Changing your job is a different right, Berufsfreiheit in Art. 12 GG.",
+    "trick": "Frei + Zug: free to move house."
+  },
+  "G20": {
+    "why": "A party that wants to set up a dictatorship fights the free democratic order and is therefore unconstitutional (Art. 21(2) GG).",
+    "trap": "'Gesetzestreu' may look neutral, but a party aiming for dictatorship acts against the constitution, the highest law.",
+    "trick": "Dictatorship goal = verfassungswidrig."
+  },
+  "G21": {
+    "why": "Bild 1 shows the Bundesadler, the black eagle with red beak and claws on a gold shield, which is the federal coat of arms.",
+    "trap": "Bild 4 is tempting because it uses black, red and gold, but it is the coat of arms of the former DDR (hammer and compass).",
+    "trick": "Germany's coat of arms is an eagle, not a tool."
+  },
+  "G22": {
+    "why": "Germany is a republic: the head of state is an elected president, not a king (Art. 20(1) GG).",
+    "trap": "Monarchie is tempting because Germany had an emperor until 1918, but that ended with the Weimar Republic.",
+    "trick": "The name says it: Bundesrepublik."
+  },
+  "G23": {
+    "why": "Most working people in Germany are employees of a company or a public authority.",
+    "trap": "Family businesses are common, but most workers are employees of a company or authority, not of a small family business.",
+    "trick": "Most Germans are Angestellte, not Chefs."
+  },
+  "G24": {
+    "why": "Germany has 16 Bundesländer since reunification in 1990.",
+    "trap": "15 is tempting if you forget that the city-states Berlin, Hamburg and Bremen count as Länder too.",
+    "trick": "Brandenburg lets 16-year-olds vote for the Landtag, and Germany has 16 Länder."
+  },
+  "G25": {
+    "why": "Elsass-Lothringen (Alsace-Lorraine) is a region of France; it belonged to the German Empire only from 1871 to 1918.",
+    "trap": "Mecklenburg-Vorpommern and Sachsen-Anhalt sound unusual, but both are real Bundesländer in the east.",
+    "trick": "Elsass = Alsace = France."
+  },
+  "G26": {
+    "why": "Art. 20(1) GG: 'Die Bundesrepublik Deutschland ist ein demokratischer und sozialer Bundesstaat.'",
+    "trap": "'Sozialer und sozialistischer Bundesstaat' is tempting because 'sozial' is right, but Germany is not socialist.",
+    "trick": "Learn Art. 20(1) by heart: demokratisch, sozial, Bundesstaat."
+  },
+  "G27": {
+    "why": "Germany is a Bundesstaat, a federal state made up of 16 Länder (Art. 20(1) GG).",
+    "trap": "Monarchie is tempting for historical reasons, but Germany has been a republic since 1918/19.",
+    "trick": "Bundesrepublik = Bund of Länder."
+  },
+  "G28": {
+    "why": "The members of the Bundestag are elected by the people who have the right to vote (Art. 38(1) GG).",
+    "trap": "'Die Verwaltung' is wrong: public administration runs elections, but it does not choose who wins.",
+    "trick": "Volk votes, Bundestag sits."
+  },
+  "G29": {
+    "why": "The Bundesadler (eagle) is Germany's heraldic animal.",
+    "trap": "Bär is tempting because it is Berlin's symbol, but that is the city's coat of arms, not the federal one.",
+    "trick": "Adler for the Bund, Bär for Berlin."
+  },
+  "G30": {
+    "why": "Press censorship is not part of a democracy; Art. 5(1) GG says 'Eine Zensur findet nicht statt.'",
+    "trap": "Verschiedene Parteien might look optional, but a one-party state is not a democracy, so it is a real feature.",
+    "trick": "Democracy has a free press, never a censor."
+  },
+  "G31": {
+    "why": "When several parties work together to form a government, it is called a Koalition.",
+    "trap": "Fraktion is tempting because it is also a group in parliament, but a Fraktion is the members of one party (or allied parties like CDU/CSU), not a government alliance.",
+    "trick": "Koalition = coalition = parties governing together."
+  },
+  "G32": {
+    "why": "The three state powers are legislation, executive (including the government) and judiciary (Art. 20(2) GG); the press is not a state power.",
+    "trap": "Regierung is tempting because it sounds different from the classic three, but the government is part of the executive.",
+    "trick": "The press watches the state but is not the state."
+  },
+  "G33": {
+    "why": "State and religious communities are separate in Germany; there is no state church (Art. 140 GG with Art. 137 WRV).",
+    "trap": "'Staat und Religionsgemeinschaften bilden eine Einheit' may seem plausible because of church tax and religion classes, but they remain separate institutions.",
+    "trick": "No state church: church and state are separate."
+  },
+  "G34": {
+    "why": "Germany is a democracy, a Rechtsstaat and a Sozialstaat, but not a monarchy.",
+    "trap": "Sozialstaat may sound like a political goal rather than a fact, but Art. 20(1) GG makes Germany a social state.",
+    "trick": "Three yes, one no: no king, no Monarchie."
+  },
+  "G35": {
+    "why": "Social insurance is mainly paid for by Sozialabgaben, contributions taken from wages and mostly shared by employees and employers.",
+    "trap": "Kirchensteuer is tempting because the state collects it, but the money goes to the churches, not to social insurance.",
+    "trick": "Sozialversicherung is paid with Sozialabgaben."
+  },
+  "G36": {
+    "why": "Health insurance is part of the social insurance system and protects people when they are ill.",
+    "trap": "Autoversicherung is tempting because liability cover for a car is compulsory, but it is private insurance for vehicle damage, not social security.",
+    "trick": "Social security protects people; car insurance protects cars."
+  },
+  "G37": {
+    "why": "The heads of government of most Länder are called Ministerpräsidentin or Ministerpräsident.",
+    "trap": "Senatorin/Senator is tempting because the city-states use that word, but there Senators are ministers, and the head is a Bürgermeister.",
+    "trick": "Most Länder have a Ministerpräsident; only Berlin, Hamburg and Bremen have a Bürgermeister at the top."
+  },
+  "G38": {
+    "why": "Art. 20(1) GG calls Germany 'ein demokratischer und sozialer Bundesstaat'.",
+    "trap": "Staatenbund is tempting, but that is a loose confederation of independent states, not one federal state.",
+    "trick": "Same sentence as Question 26: demokratisch, sozial, Bundesstaat."
+  },
+  "G39": {
+    "why": "Every Land has its own parliament (Landtag) and its own government.",
+    "trap": "Eine eigene Währung is wrong: all Länder use the euro.",
+    "trick": "Länder have their own governments, but share the army, the euro and foreign policy."
+  },
+  "G40": {
+    "why": "The national anthem is the third verse of the Deutschlandlied and starts with 'Einigkeit und Recht und Freiheit'.",
+    "trap": "'Deutschland einig Vaterland' sounds German, but it is a line from the DDR anthem.",
+    "trick": "Unity, justice, freedom: the anthem opens with three values."
+  },
+  "G41": {
+    "why": "Several parties are needed so that the different opinions of the citizens are represented.",
+    "trap": "'Um wirtschaftlichen Wettbewerb anzuregen' is tempting because competition sounds good, but parties compete for political ideas, not for the economy.",
+    "trick": "Many opinions, many parties."
+  },
+  "G42": {
+    "why": "Federal laws are passed by parliament: Art. 77(1) GG says 'Die Bundesgesetze werden vom Bundestage beschlossen.'",
+    "trap": "Die Regierung is tempting because it proposes most bills, but it cannot pass a law itself.",
+    "trick": "Government proposes, parliament decides."
+  },
+  "G43": {
+    "why": "A party can be banned if it fights against the free democratic order; only the Bundesverfassungsgericht can decide this (Art. 21 GG).",
+    "trap": "'Wenn sie Kritik am Staatsoberhaupt äußert' is wrong: criticising the president is allowed political speech.",
+    "trick": "Only fighting the constitution gets a party banned."
+  },
+  "G44": {
+    "why": "The Bundespräsident is elected by the Bundesversammlung, not directly by the people (Art. 54 GG).",
+    "trap": "EU-Parlament may sound distant, but Germans elect its members directly in European elections.",
+    "trick": "The President is chosen by the Bundesversammlung, never by voters directly."
+  },
+  "G45": {
+    "why": "Long-term care insurance (Pflegeversicherung) is one of the branches of the statutory social insurance, introduced in 1995.",
+    "trap": "Unfallversicherung is tempting because statutory accident insurance is also social insurance, but Pflegeversicherung is its own branch, not part of it.",
+    "trick": "Pflege belongs to the social family: health, pension, unemployment, accident, care."
+  },
+  "G46": {
+    "why": "Building roads and schools is public infrastructure, a typical task of the state.",
+    "trap": "'Er produziert Autos und Busse' may seem plausible for public transport, but cars and buses are made by private companies.",
+    "trick": "The state builds what everyone uses: roads and schools."
+  },
+  "G47": {
+    "why": "The state does not pay for holidays; it does pay Kindergeld, support museums and promote sport.",
+    "trap": "Fördert Sportlerinnen und Sportler may sound like a luxury, but the state does fund sport, for example top athletes in the Bundeswehr or federal police.",
+    "trick": "Kindergeld yes, holiday money no."
+  },
+  "G48": {
+    "why": "The constitutional bodies include the Bundestag, Bundesrat, Bundespräsident, Bundesregierung and Bundesverfassungsgericht; a Bürgerversammlung is not one of them.",
+    "trap": "Bürgerversammlung is easy to mix up with the Bundesversammlung, which is a constitutional body (it elects the President).",
+    "trick": "Bundesversammlung yes, Bürgerversammlung no."
+  },
+  "G49": {
+    "why": "School policy is mainly the responsibility of the Bundesländer (Kulturhoheit der Länder).",
+    "trap": "Das Familienministerium is tempting because schools concern families, but the federal government has little say over schools.",
+    "trick": "16 Länder, 16 school systems."
+  },
+  "G50": {
+    "why": "Germany's economic system is the soziale Marktwirtschaft: a free market with social protection, shaped by Ludwig Erhard.",
+    "trap": "Planwirtschaft is tempting if you think of the DDR, but that system ended with reunification.",
+    "trick": "Market + social = soziale Marktwirtschaft."
+  },
+  "G51": {
+    "why": "In a Rechtsstaat nobody may be locked up without a legal reason, and only a judge may decide on longer detention (Art. 104 GG); a private police force has no such power.",
+    "trap": "'Jemand begeht ein Verbrechen und wird deshalb verhaftet' may look like a restriction of freedom, but arresting a suspect lawfully is normal in a Rechtsstaat.",
+    "trick": "No private police, no arrest without reason."
+  },
+  "G52": {
+    "why": "Art. 20(2) GG: 'Alle Staatsgewalt geht vom Volke aus.'",
+    "trap": "Bundestag is tempting because it holds a lot of power, but it only exercises the power the people give it in elections.",
+    "trick": "Volkssouveränität: the Volk is sovereign."
+  },
+  "G53": {
+    "why": "Rechtsstaat means the state itself must obey the law (Art. 20(3) GG).",
+    "trap": "'Der Staat hat Recht' plays on the word Recht, but the term means the state is bound by law, not that it is always right.",
+    "trick": "Rechtsstaat = the state follows the law, not the other way round."
+  },
+  "G54": {
+    "why": "The three state powers are Legislative, Exekutive and Judikative; 'Direktive' is not one of them.",
+    "trap": "Legislative, Judikative and Exekutive all sound equally Latin, so the trap is the made-up word that sounds just like them.",
+    "trick": "L-E-J are the three real powers; anything else is invented."
+  },
+  "G55": {
+    "why": "The picture shows the Reichstag building with its glass dome, the seat of the Bundestag in Berlin.",
+    "trap": "Das Bundesratsgebäude in Berlin is tempting because it is also a historic building in Berlin, but it has no glass dome.",
+    "trick": "Glass dome = Reichstag = Bundestag."
+  },
+  "G56": {
+    "why": "The Ordnungsamt is part of the town or municipal administration and deals with local public order, for example parking control and noise complaints.",
+    "trap": "Finanzamt is tempting because it is a local office, but it belongs to the Land, not to the municipality.",
+    "trick": "The town has an Ordnungsamt, the Land a Finanzamt, the Bund an Auswärtiges Amt."
+  },
+  "G57": {
+    "why": "By tradition the strongest parliamentary group (Fraktion) proposes the President of the Bundestag, who is a member of that group.",
+    "trap": "The oldest member is tempting, but the Alterspräsident only opens the first session; since 2017 that role goes to the longest-serving member.",
+    "trick": "The biggest group gets the chair."
+  },
+  "G58": {
+    "why": "The Bundespräsident appoints the federal ministers on the proposal of the Chancellor (Art. 64(1) GG).",
+    "trap": "Die Bundestagspräsidentin/der Bundestagspräsident sounds powerful, but that office runs parliament and does not appoint ministers.",
+    "trick": "Chancellor proposes, President appoints."
+  },
+  "G59": {
+    "why": "A decree of Emperor Constantine from the year 321 is the earliest record of Jews in Cologne, about 1700 years ago; Germany marked '1700 Jahre jüdisches Leben' in 2021.",
+    "trap": "'Vor etwa 700 Jahren' is tempting if you think of the medieval Jewish communities, but Jewish life in the region is much older.",
+    "trick": "321 + 1700 = 2021: the anniversary year."
+  },
+  "G60": {
+    "why": "Bundestag and Bundesrat are the legislative bodies: they make the federal laws together.",
+    "trap": "Exekutive is tempting because the Bundesrat is made up of members of the Land governments, but as a body it takes part in lawmaking.",
+    "trick": "Legislative = Gesetzgebung = Bundestag + Bundesrat."
+  },
+  "G61": {
+    "why": "Volkssouveränität means all state power comes from the people (Art. 20(2) GG).",
+    "trap": "'Das Bundesverfassungsgericht steht über der Verfassung' is wrong: the court protects the constitution and is bound by it.",
+    "trick": "Volk + Souverän: the people are the boss."
+  },
+  "G62": {
+    "why": "The parliament of a Bundesland is the Landtag, so its election is a Landtagswahl; Brandenburg last voted in September 2024.",
+    "trap": "Kommunalwahl is tempting because it is also regional, but it elects town and district councils, not the state parliament.",
+    "trick": "Land + Tag = Landtag = Landtagswahl."
+  },
+  "G63": {
+    "why": "Courts belong to the judiciary (Judikative), not to the executive.",
+    "trap": "Das Finanzamt may not feel like 'government', but as a public authority it is part of the executive.",
+    "trick": "Executive executes (police, ministries, offices); courts judge."
+  },
+  "G64": {
+    "why": "Germany is organised on three levels: the federation (Bund), the 16 Länder and the municipalities (Kommunen).",
+    "trap": "16 Kantone is tempting because the number 16 is right, but Kantone are the member states of Switzerland.",
+    "trick": "Bund, Land, Kommune: three floors of one house."
+  },
+  "G65": {
+    "why": "The Bundestag does not form the cabinet: the Chancellor chooses the ministers and the Bundespräsident appoints them (Art. 64(1) GG).",
+    "trap": "'Gesetze zu entwerfen' is tempting, but members of the Bundestag can introduce bills themselves (Art. 76(1) GG), so it is one of its tasks.",
+    "trick": "Bundestag elects the Chancellor; the Chancellor builds the cabinet."
+  },
+  "G66": {
+    "why": "Berlin and München (Munich) have the largest Jewish communities in Germany today.",
+    "trap": "Worms and Speyer are tempting because they are famous historic Jewish centres (the medieval SchUM cities), but today their communities are small.",
+    "trick": "Biggest cities, biggest communities: Berlin and München."
+  },
+  "G67": {
+    "why": "Education and schools are mainly the responsibility of the Länder.",
+    "trap": "Wirtschaftspolitik is tempting because the Länder do promote their regional economy, but economic policy is mostly made at federal and EU level.",
+    "trick": "Defence and foreign policy for the Bund, schools for the Länder."
+  },
+  "G68": {
+    "why": "Art. 7(1) GG puts the whole school system under the supervision of the state.",
+    "trap": "'Weil es nur staatliche Schulen gibt' is wrong: private schools exist and are allowed (Art. 7(4) GG), they are just supervised.",
+    "trick": "Art. 7 = school: the state watches over all schools."
+  },
+  "G69": {
+    "why": "The lowest political level of Germany's three-level structure (Bund, Länder, Kommunen) is the municipality, the Gemeinde.",
+    "trap": "Landräte is tempting, but a Landrat is a person, the head of a Landkreis, not an administrative level.",
+    "trick": "Bund at the top, Land in the middle, Gemeinde at the bottom."
+  },
+  "G70": {
+    "why": "The Bundespräsident proposes a candidate for Chancellor, and the Bundestag then elects that person (Art. 63(1) GG).",
+    "trap": "'Sie/Er wählt die Ministerinnen/Minister aus' is tempting because the President formally appoints ministers, but the Chancellor chooses them.",
+    "trick": "President proposes and hands over the certificate; the Bundestag elects."
+  },
+  "G71": {
+    "why": "The Chancellor works mostly in Berlin, where the Federal Chancellery (Bundeskanzleramt) and the Bundestag are.",
+    "trap": "Bonn is tempting because it was the seat of government until the move to Berlin in 1999, but the Chancellery and the Bundestag are now in Berlin.",
+    "trick": "Bonn was then, Berlin is now."
+  },
+  "G72": {
+    "why": "As of October 2026, Friedrich Merz (CDU) is Federal Chancellor; he was elected by the Bundestag on 6 May 2025. Check before the test.",
+    "trap": "Angela Merkel is tempting because she was Chancellor for 16 years, but she left office in 2021.",
+    "trick": "Merz since May 2025: M for Merz, M for May."
+  },
+  "G73": {
+    "why": "As of October 2026, CDU/CSU (208 seats) and AfD (150 seats, after two members left) are the two largest groups in the Bundestag elected in February 2025. Check before the test.",
+    "trap": "Bündnis 90/Die Grünen und SPD is tempting if you remember the previous government, but after the 2025 election the SPD is third and the Greens fourth.",
+    "trick": "2025 result: Union first, AfD second."
+  },
+  "G74": {
+    "why": "The national parliament for all of Germany is the Bundestag.",
+    "trap": "Volkskammer is tempting because it sounds like a people's parliament, but it was the parliament of the former DDR.",
+    "trick": "Bundestag for the Bund, Landtag for the Land."
+  },
+  "G75": {
+    "why": "As of October 2026, Frank-Walter Steinmeier is head of state; his second and last term ends on 18 March 2027, and his successor will be elected on 30 January 2027, so he is still in office on 8 Dec 2026. Check before the test.",
+    "trap": "Joachim Gauck is tempting because he was Bundespräsident, but he served from 2012 to 2017, before Steinmeier.",
+    "trick": "Steinmeier: Stein (stone) stays until March 2027."
+  },
+  "G76": {
+    "why": "CDU stands for Christlich Demokratische Union.",
+    "trap": "'Christliche Deutsche Union' is tempting because 'Deutschland' fits, but the D stands for 'Demokratische'.",
+    "trick": "C-D-U: Christian, Democratic, Union."
+  },
+  "G77": {
+    "why": "The Bundeswehr is Germany's armed forces, founded in 1955.",
+    "trap": "'Die deutsche Polizei' is tempting because both wear uniforms, but police and army are separate institutions.",
+    "trick": "Bundeswehr: 'Wehr' = defence."
+  },
+  "G78": {
+    "why": "SPD stands for Sozialdemokratische Partei Deutschlands.",
+    "trap": "'Sozialistische Partei Deutschlands' is tempting because the letters match, but the SPD is social democratic, not socialist.",
+    "trick": "SPD = Social Democrats."
+  },
+  "G79": {
+    "why": "FDP stands for Freie Demokratische Partei.",
+    "trap": "'Freie Deutschland Partei' is tempting because the F and P fit, but the D stands for 'Demokratische'.",
+    "trick": "Most German party abbreviations hide a 'D' for 'Demokratisch'."
+  },
+  "G80": {
+    "why": "The Bundesverfassungsgericht in Karlsruhe interprets the Grundgesetz (Art. 93 GG).",
+    "trap": "Oberlandesgericht is tempting because it sounds high, but it is a Land appeal court for civil and criminal cases.",
+    "trick": "Verfassung question = Verfassungsgericht."
+  },
+  "G81": {
+    "why": "The Bundestag elects the Chancellor on the proposal of the Bundespräsident (Art. 63(1) GG).",
+    "trap": "'Das Volk' is tempting because parties campaign with Chancellor candidates, but voters elect the Bundestag, not the Chancellor.",
+    "trick": "People elect the Bundestag; the Bundestag elects the Chancellor."
+  },
+  "G82": {
+    "why": "The Chancellor leads the federal cabinet and sets its policy guidelines (Art. 65 GG).",
+    "trap": "Die Bundespräsidentin/der Bundespräsident is tempting because it is the highest office, but the President is not part of the government.",
+    "trick": "Kanzler leads the Kabinett: both start with K."
+  },
+  "G83": {
+    "why": "The Bundestag elects the Chancellor (Art. 63(1) GG).",
+    "trap": "Die Bundesversammlung is tempting, but it elects the Bundespräsident, not the Chancellor.",
+    "trick": "Same as Question 81: Bundestag elects the Kanzler."
+  },
+  "G84": {
+    "why": "The Bundespräsident's main task is to represent Germany; Art. 59(1) GG says the President represents the Federation in international law.",
+    "trap": "'Überwacht die Einhaltung der Gesetze' is tempting because the President signs laws after checking how they were made, but enforcing laws is a job for authorities and courts.",
+    "trick": "The President represents; the Chancellor governs."
+  },
+  "G85": {
+    "why": "The Bundesrat is made up of members of the governments of the Länder (Art. 51(1) GG).",
+    "trap": "'Die Abgeordneten des Bundestages' is tempting because both are in Berlin, but the Bundesrat is a separate body.",
+    "trick": "Bundesrat = the Länder governments in Berlin."
+  },
+  "G86": {
+    "why": "The Bundesversammlung elects the Bundespräsident; it consists of all members of the Bundestag plus the same number of delegates from the Landtage (Art. 54 GG).",
+    "trap": "Der Bundesrat is tempting because it also represents the Länder, but it has no role in electing the President.",
+    "trick": "Bundesversammlung: big assembly, one job, electing the President."
+  },
+  "G87": {
+    "why": "The Bundespräsident is Germany's head of state.",
+    "trap": "Die Bundeskanzlerin/der Bundeskanzler is tempting because the Chancellor has the most political power, but heads the government, not the state.",
+    "trick": "Head of state = President; head of government = Chancellor."
+  },
+  "G88": {
+    "why": "The opposition's main role is to control and criticise the government.",
+    "trap": "'Entscheidet, wer Bundesministerin/Bundesminister wird' is wrong: the Chancellor picks the ministers.",
+    "trick": "Opposition = watchdog."
+  },
+  "G89": {
+    "why": "Members of parliament from one party (or allied parties like CDU and CSU) form a Fraktion.",
+    "trap": "Opposition is tempting because it is also a group of MPs, but it is all MPs outside the government, from several parties.",
+    "trick": "Fraktion = one party's team in parliament."
+  },
+  "G90": {
+    "why": "The Länder take part in federal legislation through the Bundesrat (Art. 50 GG).",
+    "trap": "Die Bundesversammlung is tempting because it includes Land delegates, but it only meets to elect the President.",
+    "trick": "Länder have their say in the Bundesrat."
+  },
+  "G91": {
+    "why": "A change of government in a Land can change the majority in the Bundesrat, and many federal laws need its consent, so governing becomes harder.",
+    "trap": "'Wenn sich die Mehrheit im Bundestag ändert' is tempting, but a Land election does not change the Bundestag.",
+    "trick": "Land vote changes the Bundesrat, not the Bundestag."
+  },
+  "G92": {
+    "why": "CSU stands for Christlich-Soziale Union; it exists only in Bavaria.",
+    "trap": "'Christlich Süddeutsche Union' is tempting because the CSU is a southern party, but the S stands for 'Soziale'.",
+    "trick": "CDU everywhere except Bavaria; CSU only in Bavaria."
+  },
+  "G93": {
+    "why": "The Zweitstimme decides the share of seats each party gets, so more Zweitstimmen means more seats.",
+    "trap": "'Mehr Direktkandidaten' is tempting, but constituency candidates are chosen with the Erststimme.",
+    "trick": "Zweitstimme = the seats vote."
+  },
+  "G94": {
+    "why": "You can vote in the Bundestag election from age 18 (Art. 38(2) GG).",
+    "trap": "16 is tempting because 16-year-olds can vote in European elections and in some Landtag elections, including Brandenburg, but not for the Bundestag.",
+    "trick": "Bundestag at 18, Brandenburg Landtag at 16."
+  },
+  "G95": {
+    "why": "School is compulsory in Germany (Schulpflicht); the Länder regulate the details.",
+    "trap": "Wahlpflicht is tempting because it also ends in 'Pflicht', but there is no compulsory voting, and children cannot vote anyway.",
+    "trick": "Kids must go to school, not to the ballot box."
+  },
+  "G96": {
+    "why": "Denying the Holocaust in public is a crime, punishable with up to five years in prison or a fine (§ 130(3) StGB).",
+    "trap": "'Bis zu 100 Sozialstunden' is tempting because it sounds like a typical light penalty, but the law sets prison or a fine.",
+    "trick": "Holocaust denial: up to 5 years."
+  },
+  "G97": {
+    "why": "For a regular employee, social insurance contributions are deducted automatically from the salary.",
+    "trap": "Sozialhilfe is tempting because it starts with 'Sozial', but it is a benefit you receive, not something you pay.",
+    "trick": "You pay Sozialversicherung; you receive Sozialhilfe, Kindergeld and Wohngeld."
+  },
+  "G98": {
+    "why": "MPs keep their seat when they change group, because they are bound only by their conscience (Art. 38(1) GG), so a narrow government majority can be lost.",
+    "trap": "'Dürfen nicht mehr an den Sitzungen teilnehmen' is wrong: the seat belongs to the MP, not to the party.",
+    "trick": "Switching sides can switch majorities."
+  },
+  "G99": {
+    "why": "Employers and employees share the cost of social insurance.",
+    "trap": "'Nur Arbeitnehmer' is tempting because you see the deduction on your payslip, but your employer pays a similar share on top.",
+    "trick": "Social insurance is split: boss pays, worker pays."
+  },
+  "G100": {
+    "why": "Life insurance is private, voluntary insurance and not part of statutory social insurance.",
+    "trap": "Pflegeversicherung is tempting because it was added late (1995), but it is a full part of social insurance.",
+    "trick": "The five pillars: health, pension, unemployment, accident, care. Life insurance is not one of them."
+  },
+  "G101": {
+    "why": "Trade unions (Gewerkschaften) represent the interests of employees, for example in wage negotiations.",
+    "trap": "Arbeitgeber is tempting, but employers have their own organisations, the Arbeitgeberverbände.",
+    "trick": "Gewerkschaft = workers' team; Arbeitgeberverband = bosses' team."
+  },
+  "G102": {
+    "why": "The Bundesverdienstkreuz (Federal Cross of Merit) has honoured special achievements since 1951.",
+    "trap": "Vaterländischer Verdienstorden is tempting because it sounds like a German honour, but it was awarded in the DDR.",
+    "trick": "Bundes-Verdienst-Kreuz: the Bund thanks you for your Verdienst."
+  },
+  "G103": {
+    "why": "The Ampelkoalition was SPD (red), FDP (yellow) and the Greens (green), like a traffic light; it governed under Olaf Scholz from 2021 to 2024.",
+    "trap": "'Der Bundestagsfraktionen von CDU und SPD' is tempting, but that is a 'große Koalition', not the traffic light.",
+    "trick": "Ampel = red, yellow, green = SPD, FDP, Grüne."
+  },
+  "G104": {
+    "why": "Pregnant women and new mothers are protected against dismissal by the Mutterschutzgesetz, if the employer knows about the pregnancy.",
+    "trap": "Long illness is tempting as a 'protected' reason, but in some cases an employer may legally dismiss someone because of long illness.",
+    "trick": "Baby on the way: no dismissal."
+  },
+  "G105": {
+    "why": "Poll workers (Wahlhelfer) count the votes after the polling station closes.",
+    "trap": "Helping old people in the voting booth is tempting, but voting is secret; a voter who needs help chooses their own helper.",
+    "trick": "Wahlhelfer = vote counters."
+  },
+  "G106": {
+    "why": "Volunteer poll workers count the votes after the election ends.",
+    "trap": "Writing cards with the polling station address is tempting, but the municipality sends the Wahlbenachrichtigung.",
+    "trick": "Same as Question 105: helpers count."
+  },
+  "G107": {
+    "why": "The Bundestag is elected for four years (Art. 39(1) GG).",
+    "trap": "6 Jahre is tempting if you think of other countries' terms, but the Bundestag term is four years.",
+    "trick": "Bundestag: 4 years, like the Olympics."
+  },
+  "G108": {
+    "why": "German citizens aged 18 or over may vote in the Bundestag election (Art. 38(2) GG).",
+    "trap": "'In Deutschland wohnt' is tempting, but living in Germany is not enough without German citizenship.",
+    "trick": "Citizen + 18 = vote."
+  },
+  "G109": {
+    "why": "Bundestag elections are normally held every four years.",
+    "trap": "Alle fünf Jahre is tempting because many Landtage, including Brandenburg's, are elected for five years, but the Bundestag term is four.",
+    "trick": "Bund 4, Brandenburg 5."
+  },
+  "G110": {
+    "why": "The Bundestag is elected for four years (Art. 39(1) GG).",
+    "trap": "5 Jahre is tempting because the European Parliament and most Landtage have five-year terms, but not the Bundestag.",
+    "trick": "Same as Question 107: 4 years."
+  },
+  "G111": {
+    "why": "Publicly calling for the destruction of Israel is a crime, for example as incitement to hatred (Volksverhetzung).",
+    "trap": "'Die Politik Israels öffentlich kritisieren' is tempting, but criticising a government's policy is protected free speech.",
+    "trick": "Criticism yes, calls for destruction no."
+  },
+  "G112": {
+    "why": "Elections in Germany are secret: nobody may see or find out how you voted (Art. 38(1) GG).",
+    "trap": "'Speziell' is the made-up distractor; the real principles are general, direct, free, equal and secret.",
+    "trick": "Your vote is your secret."
+  },
+  "G113": {
+    "why": "The party with the most votes (Zweitstimmen) wins the election.",
+    "trap": "'Die meisten Erststimmen für ihre Kanzlerkandidatin' is tempting, but the Chancellor is not directly elected and Erststimmen go to local candidates.",
+    "trick": "Most votes wins."
+  },
+  "G114": {
+    "why": "Voting in Germany is a right, not a duty.",
+    "trap": "'Eine Pflicht' is tempting because voting is a civic virtue, but nobody is fined or forced to vote.",
+    "trick": "Voting: Recht, not Pflicht."
+  },
+  "G115": {
+    "why": "'Aktives Wahlrecht' means you may vote.",
+    "trap": "'Man kann gewählt werden' is tempting, but that is the passives Wahlrecht, the right to stand for election.",
+    "trick": "Active = you do the voting; passive = you get voted for."
+  },
+  "G116": {
+    "why": "Being allowed to vote is called 'aktives Wahlrecht'.",
+    "trap": "Aktiver Wahlkampf is tempting, but a Wahlkampf is an election campaign.",
+    "trick": "Recht = right: aktives Wahlrecht."
+  },
+  "G117": {
+    "why": "A party normally needs at least 5% of the Zweitstimmen to get seats in the Bundestag.",
+    "trap": "3% is tempting because some countries use lower thresholds, but in Germany it is 5%.",
+    "trick": "5 fingers, 5 percent."
+  },
+  "G118": {
+    "why": "Makkabi sports clubs are open to everyone, regardless of religion or origin.",
+    "trap": "'Nur religiöse Menschen' is tempting because the clubs are Jewish, but membership does not depend on faith.",
+    "trick": "Makkabi: Jewish roots, open to all."
+  },
+  "G119": {
+    "why": "A free election means everyone decides without pressure whether to vote and whom to vote for.",
+    "trap": "'Ich kann frei entscheiden, wo ich wählen gehen möchte' is tempting because of the word 'frei', but you vote at your assigned polling station (or by post).",
+    "trick": "Free = free from pressure, not free choice of polling station."
+  },
+  "G120": {
+    "why": "Germany mixes majority voting (Erststimme for a constituency candidate) and proportional voting (Zweitstimme for a party list).",
+    "trap": "Dreiklassenwahlrecht is tempting because it sounds historical German, but it was Prussia's unequal system until 1918.",
+    "trick": "Two votes, two systems: Mehrheit + Verhältnis."
+  },
+  "G121": {
+    "why": "The minimum share of votes a party needs to enter the Bundestag is called the 5%-Hürde.",
+    "trap": "Zulassungsgrenze is tempting because it sounds technical, but it is not the official term.",
+    "trick": "Hürde = hurdle: jump over 5% to get in."
+  },
+  "G122": {
+    "why": "Art. 38(1) GG lists the principles: general, direct, free, equal and secret; 'frei, gleich, geheim' are three of them.",
+    "trap": "'Offen, sicher, frei' is tempting because 'frei' is right, but elections are secret, not open.",
+    "trick": "Frei, gleich, geheim: three words for the ballot box."
+  },
+  "G123": {
+    "why": "The 5%-Hürde is the minimum share of votes a party needs to get seats in parliament.",
+    "trap": "'Abstimmungsregelung im Bundestag für kleine Parteien' is tempting, but the hurdle applies to elections, not to votes inside parliament.",
+    "trick": "5% to get in the door."
+  },
+  "G124": {
+    "why": "The Bundestag election chooses the federal parliament.",
+    "trap": "'Der Bundeskanzlerin/des Bundeskanzlers' is tempting because campaigns focus on Chancellor candidates, but the Bundestag elects the Chancellor afterwards.",
+    "trick": "Bundestagswahl elects the Bundestag."
+  },
+  "G125": {
+    "why": "Regular elections allow the government to change according to the will of the majority of voters.",
+    "trap": "'Im Land bestehende Gesetze beizubehalten' is wrong: elections can lead to new laws, not just keep old ones.",
+    "trick": "Elections = peaceful change of power."
+  },
+  "G126": {
+    "why": "Before an election, voters receive a Wahlbenachrichtigung (polling card) from their municipality.",
+    "trap": "'Eine Wahlerlaubnis vom Bundespräsidenten' is tempting because it sounds official, but nobody needs permission to vote.",
+    "trick": "Gemeinde sends the card."
+  },
+  "G127": {
+    "why": "The 5%-Hürde exists because many small parties in parliament make it hard to form a stable government, as happened in the Weimar Republic.",
+    "trap": "'Die Bürger verlieren die Orientierung' is tempting, but the reason is a stable parliament and government, not voter confusion.",
+    "trick": "Fewer splinters, stabler government."
+  },
+  "G128": {
+    "why": "Members of parliament elected by the citizens are called Abgeordnete.",
+    "trap": "Ministerpräsidenten is tempting because they are also political leaders, but they are heads of Land governments, chosen by the Landtag.",
+    "trick": "Abgeordnete = MPs."
+  },
+  "G129": {
+    "why": "Of the options, only the Bundestag is elected directly by the people.",
+    "trap": "'Die Ministerpräsidentin/der Ministerpräsident' is tempting, but the Landtag elects them, not the voters.",
+    "trick": "The people elect parliaments; parliaments elect leaders."
+  },
+  "G130": {
+    "why": "Ballot 1 is valid because it has exactly one cross for a candidate (Erststimme) and one for a party (Zweitstimme); splitting them between parties is allowed.",
+    "trap": "Ballot 2 is tempting because it also has two crosses, but both are in the Zweitstimme column, which makes the Zweitstimme invalid.",
+    "trick": "One cross left, one cross right."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "einbuergerung-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Study app for the German Einb\u00fcrgerungstest (Brandenburg). Batch 1: data only.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "data:extract": "python3 scripts/extract_pdf.py /workspace/bamf.pdf && python3 scripts/crop_images.py /workspace/bamf.pdf",
+    "data:build": "python3 scripts/match_sources.py && python3 scripts/build_questions.py"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "5.9",
+    "vite": "^6.4.5",
+    "vitest": "^4.1.12",
+    "zod": "^4.6.7"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wouter": "^3.13.0"
+  }
+}
