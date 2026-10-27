@@ -26,6 +26,8 @@ npm test
 
 ## App (Batch 2)
 
+Themes: Light, Dark blue and Dark grey (header half-circle button, or Progress > Appearance). The default follows the device (dark = Dark blue); the choice is stored in localStorage (`einb-trainer.theme.v1`, zod-validated) and applied before first paint by an inline script in index.html. All colours are CSS variables in src/index.css; tests/theme.test.ts checks WCAG AA contrast for every theme.
+
 Vite + React 18 + strict TypeScript, hash routing (wouter). Mobile-first; German question text, English UI.
 
 - `npm run dev` (port 5181) · `npm run build` · `npm run preview` (port 4181) · `npm test`

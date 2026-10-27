@@ -7,9 +7,11 @@ import { PracticeIndex, PracticeSession } from "@/pages/Practice";
 import { ProgressPage } from "@/pages/ProgressPage";
 import { WeakList, WeakPractice } from "@/pages/Weak";
 import { ProgressProvider } from "@/state/ProgressContext";
+import { ThemeProvider } from "@/state/ThemeContext";
 
 export function App() {
   return (
+    <ThemeProvider>
     <ProgressProvider>
       <Router hook={useHashLocation}>
         <AppShell>
@@ -28,5 +30,6 @@ export function App() {
         </AppShell>
       </Router>
     </ProgressProvider>
+    </ThemeProvider>
   );
 }

@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Link, useLocation } from "wouter";
 import { useProgress } from "@/state/ProgressContext";
+import { ThemeButton } from "./ThemePicker";
 
 export const TEST_DATE = new Date("2026-12-08T00:00:00+01:00");
 
@@ -31,6 +32,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <span className="countdown" title="Test date: 8 Dec 2026">
             {days} days to go
           </span>
+          <ThemeButton />
         </div>
         <nav className="nav" aria-label="Main navigation">
           {NAV.map((n) => {

@@ -1,4 +1,5 @@
 import { TopicBar } from "@/components/AppShell";
+import { ThemeOptions } from "@/components/ThemePicker";
 import { topicStats } from "@/lib/progress";
 import { QUESTIONS, TOPIC_LABEL } from "@/lib/questions";
 import { useProgress } from "@/state/ProgressContext";
@@ -51,6 +52,10 @@ export function ProgressPage() {
           </section>
         ))}
       </div>
+      <section className="card stack" aria-labelledby="appearance-h">
+        <h2 id="appearance-h">Appearance</h2>
+        <ThemeOptions />
+      </section>
       <button
         className="btn btn--danger"
         onClick={() => {
