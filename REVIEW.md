@@ -75,3 +75,26 @@ Nuance notes (answers unchanged):
 - G205: In 1990 the body was still the European Community; it became the EU in 1993.
 - G181: Brandt also laid a wreath at the Tomb of the Unknown Soldier that day, which makes option D a real trap; the kneeling was at the Ghetto Heroes memorial.
 - G201: The PDF has the typo "Niedersachen" in option D; kept as in the source.
+
+## Batch 6: G211 to G300 and BB1 to BB10
+
+No disagreements with the verified answer key. All 310 questions now have why/trap/trick.
+
+Time-sensitive facts, verified on 27 Oct 2026 (each why says "As of October 2026 ... Check before the test."):
+
+| Id | Catalogue answer | Current fact | Source |
+|---|---|---|---|
+| G213 | 84 Millionen | 83.3 million on 30 Jun 2026 (83.5 million end of 2025, now falling). 84 is still the closest option. | Destatis, 22 Sep 2026 |
+| G236 | 27 | 27 members. Montenegro: 21 of 33 chapters closed (12 Oct 2026), joining 2028 at the earliest. | Council of the EU |
+| G297 | Türkei | Turkish origin incl. descendants about 2.65 million, still the largest group. Among people born abroad, Poland (1.52 m) is now slightly ahead of Turkey (1.47 m). | Mikrozensus 2025, Destatis |
+| BB3 | 5 years | Landtag elected 22 Sep 2024; next election expected autumn 2029. | Bundesrat, Landtag Brandenburg |
+| BB4 | 16 | Voting age 16 for Kommunal- and Landtag elections (Art. 22 Verf BB, § 8 BbgKWahlG). | bravors.brandenburg.de |
+| BB7 | Potsdam | Unchanged. | |
+| BB9 | Ministerpräsident | Dietmar Woidke (SPD), in office since 2013. SPD-CDU coalition since 18 Mar 2026, after the SPD-BSW coalition ended in Jan 2026. Landtag now: SPD 34, AfD 30, CDU 12, BSW 8, WfB group 3, 1 independent (88 seats). | brandenburg.de, Landtag Brandenburg |
+
+Nuance notes (answers unchanged):
+- G256: In Brandenburg the Gaststättenerlaubnis no longer exists for normal restaurants. The Brandenburg Gaststättengesetz requires a notification (Anzeige) at least four weeks before opening, with a reliability check if alcohol is served. The catalogue answer reflects the federal rule; pick it in the test.
+- G297: The answer depends on how you count (see table). Pick Türkei.
+- G230: The European Parliament was last elected in 2024; the next election is in 2029.
+- G245: The answer turns on Anne being under 14 (criminal protection of children); no article cited.
+- G226: Bild 3 is the UN flag; I did not identify Bild 4, so the trap just says it is not the EU flag.

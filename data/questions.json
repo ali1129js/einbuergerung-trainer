@@ -8046,7 +8046,12 @@
           "answerText": "Willy Brandt"
         }
       ],
-      "pdfPage": 79
+      "pdfPage": 79,
+      "explanation": {
+        "why": "Willy Brandt's Ostpolitik produced the 'Ostverträge' (Moscow and Warsaw 1970, Prague 1973), which improved relations with the Eastern bloc.",
+        "trap": "Helmut Kohl is tempting because he dealt with the East in 1989/90, but the Ostverträge were Brandt's work.",
+        "trick": "Brandt went East: kneeling in Warsaw, treaties in Moscow."
+      }
     },
     {
       "id": "G212",
@@ -8079,7 +8084,12 @@
           "answerText": "Bundesrepublik Deutschland"
         }
       ],
-      "pdfPage": 79
+      "pdfPage": 79,
+      "explanation": {
+        "why": "Germany's full name is Bundesrepublik Deutschland, a federal republic.",
+        "trap": "Bundesstaat Deutschland is tempting because Germany is a federal state, but that is not its official name.",
+        "trick": "BRD = Bundesrepublik Deutschland."
+      }
     },
     {
       "id": "G213",
@@ -8112,7 +8122,12 @@
           "answerText": "84 Millionen"
         }
       ],
-      "pdfPage": 79
+      "pdfPage": 79,
+      "explanation": {
+        "why": "As of October 2026 the catalogue answer is 84 Millionen; Destatis counted 83.3 million people on 30 June 2026, so 84 is clearly the closest option. Check before the test.",
+        "trap": "78 Millionen is tempting if you think of the falling birth rate, but immigration keeps the population well above 80 million.",
+        "trick": "Just over 80: pick 84."
+      }
     },
     {
       "id": "G214",
@@ -8145,7 +8160,12 @@
           "answerText": "schwarz-rot-gold"
         }
       ],
-      "pdfPage": 80
+      "pdfPage": 80,
+      "explanation": {
+        "why": "The German flag is black, red and gold (schwarz-rot-gold), as fixed in Art. 22 GG.",
+        "trap": "Rot-weiß-schwarz is tempting because black, white and red was the flag of the Kaiserreich, but it is not today's flag.",
+        "trick": "Black, red, gold from top to bottom."
+      }
     },
     {
       "id": "G215",
@@ -8178,7 +8198,12 @@
           "answerText": "Helmut Kohl"
         }
       ],
-      "pdfPage": 80
+      "pdfPage": 80,
+      "explanation": {
+        "why": "Helmut Kohl was Chancellor during reunification in 1990, so he is called the 'Kanzler der Deutschen Einheit'.",
+        "trap": "Konrad Adenauer is tempting because he is the most famous early Chancellor, but he governed West Germany from 1949 to 1963.",
+        "trick": "Kohl + 1990 = Einheit."
+      }
     },
     {
       "id": "G216",
@@ -8213,7 +8238,12 @@
       ],
       "pdfPage": 81,
       "image": "/img/G216.png",
-      "imageCredit": "© Deutscher Bundestag/Janine Schmitz"
+      "imageCredit": "© Deutscher Bundestag/Janine Schmitz",
+      "explanation": {
+        "why": "The picture shows the Bundestag's plenary hall in the Reichstag building, with the large Bundesadler (federal eagle) on the wall behind the speaker.",
+        "trap": "Der Reichsadler is tempting because the building is called the Reichstag, but the eagle there is the federal eagle of the Bundesrepublik.",
+        "trick": "Federal parliament, federal eagle."
+      }
     },
     {
       "id": "G217",
@@ -8246,7 +8276,12 @@
           "answerText": "1949 bis 1990"
         }
       ],
-      "pdfPage": 81
+      "pdfPage": 81,
+      "explanation": {
+        "why": "The DDR existed from its founding in October 1949 until it joined the Bundesrepublik in October 1990.",
+        "trap": "1945 bis 1961 is tempting because it starts at the war's end and ends with the Wall, but the DDR was founded in 1949 and lasted until 1990.",
+        "trick": "49 to 90: born with the Bundesrepublik, merged into it 41 years later."
+      }
     },
     {
       "id": "G218",
@@ -8279,7 +8314,12 @@
           "answerText": "5"
         }
       ],
-      "pdfPage": 82
+      "pdfPage": 82,
+      "explanation": {
+        "why": "Five new Länder joined in 1990: Brandenburg, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt and Thüringen.",
+        "trap": "6 is tempting if you count East Berlin, but East Berlin joined the existing Land Berlin.",
+        "trick": "Five fingers, five new Länder."
+      }
     },
     {
       "id": "G219",
@@ -8312,7 +8352,12 @@
           "answerText": "1990."
         }
       ],
-      "pdfPage": 82
+      "pdfPage": 82,
+      "explanation": {
+        "why": "Germany has had its present borders since reunification in 1990, confirmed by the Two Plus Four Treaty.",
+        "trap": "1949 is tempting because the Bundesrepublik was founded then, but at that time it did not include the East.",
+        "trick": "Borders since unity: 1990."
+      }
     },
     {
       "id": "G220",
@@ -8345,7 +8390,12 @@
           "answerText": "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)"
         }
       ],
-      "pdfPage": 82
+      "pdfPage": 82,
+      "explanation": {
+        "why": "On 27 January 1945 Soviet troops liberated Auschwitz; since 1996 the day has been Germany's official day of remembrance for the victims of National Socialism.",
+        "trap": "'An das Ende des Zweiten Weltkrieges' is tempting, but that is 8 May.",
+        "trick": "27 January = Auschwitz."
+      }
     },
     {
       "id": "G221",
@@ -8378,7 +8428,12 @@
           "answerText": "Deutsche können in viele Länder Europas ohne Passkontrolle reisen."
         }
       ],
-      "pdfPage": 83
+      "pdfPage": 83,
+      "explanation": {
+        "why": "The Schengen Agreement abolished regular passport checks at internal borders, so Germans can travel to many European countries without them.",
+        "trap": "'Ohne Passkontrolle in jedes Land' is tempting, but Schengen only covers its member countries, not the whole world.",
+        "trick": "Schengen = open borders inside the club."
+      }
     },
     {
       "id": "G222",
@@ -8411,7 +8466,12 @@
           "answerText": "Schweiz"
         }
       ],
-      "pdfPage": 83
+      "pdfPage": 83,
+      "explanation": {
+        "why": "Switzerland borders Germany in the south.",
+        "trap": "Ungarn is tempting because it is in central Europe, but Austria lies between it and Germany.",
+        "trick": "Nine neighbours: DK, PL, CZ, AT, CH, FR, LU, BE, NL."
+      }
     },
     {
       "id": "G223",
@@ -8444,7 +8504,12 @@
           "answerText": "Polen"
         }
       ],
-      "pdfPage": 83
+      "pdfPage": 83,
+      "explanation": {
+        "why": "Poland borders Germany in the east, along the Oder and Neisse rivers.",
+        "trap": "Rumänien is tempting as an Eastern European country, but it is much further south-east.",
+        "trick": "Oder-Neisse line = border with Poland."
+      }
     },
     {
       "id": "G224",
@@ -8477,7 +8542,12 @@
           "answerText": "Europäische Union"
         }
       ],
-      "pdfPage": 84
+      "pdfPage": 84,
+      "explanation": {
+        "why": "EU stands for Europäische Union.",
+        "trap": "Euro Union is tempting because of the currency, but the euro is only the money, and not all EU states use it.",
+        "trick": "E for Europa, U for Union."
+      }
     },
     {
       "id": "G225",
@@ -8510,7 +8580,12 @@
           "answerText": "Österreich"
         }
       ],
-      "pdfPage": 84
+      "pdfPage": 84,
+      "explanation": {
+        "why": "Austria is a German-speaking country, so it has a large German-speaking population.",
+        "trap": "Tschechien is tempting because German was once widely spoken there, but today it is Czech-speaking.",
+        "trick": "Austria: same language, different country."
+      }
     },
     {
       "id": "G226",
@@ -8545,7 +8620,12 @@
       ],
       "pdfPage": 85,
       "image": "/img/G226.png",
-      "note": "Picture-numbered options; checked by hand that the PDF and the Online-Testcenter show the pictures in the same order."
+      "note": "Picture-numbered options; checked by hand that the PDF and the Online-Testcenter show the pictures in the same order.",
+      "explanation": {
+        "why": "Bild 2 is the EU flag: a circle of 12 gold stars on a blue background.",
+        "trap": "Bild 4 is tempting because it is also blue and gold, but it has no circle of stars; Bild 3 is the UN flag.",
+        "trick": "12 stars in a circle = EU."
+      }
     },
     {
       "id": "G227",
@@ -8578,7 +8658,12 @@
           "answerText": "Dänemark"
         }
       ],
-      "pdfPage": 85
+      "pdfPage": 85,
+      "explanation": {
+        "why": "Denmark borders Germany in the north, next to Schleswig-Holstein.",
+        "trap": "Schweden is tempting because it is close across the Baltic Sea, but there is no land border.",
+        "trick": "North of Flensburg: Denmark."
+      }
     },
     {
       "id": "G228",
@@ -8611,7 +8696,12 @@
           "answerText": "Deutsche Wiedervereinigung"
         }
       ],
-      "pdfPage": 85
+      "pdfPage": 85,
+      "explanation": {
+        "why": "The DDR's accession to the Bundesrepublik in 1990 is called the Deutsche Wiedervereinigung (German reunification).",
+        "trap": "EU-Osterweiterung is tempting because East Germany did join the EC then, but that term means the eastern European states joining from 2004.",
+        "trick": "Two halves become one again: Wiedervereinigung."
+      }
     },
     {
       "id": "G229",
@@ -8644,7 +8734,12 @@
           "answerText": "Luxemburg"
         }
       ],
-      "pdfPage": 86
+      "pdfPage": 86,
+      "explanation": {
+        "why": "Luxembourg borders Germany in the west.",
+        "trap": "Spanien is tempting as a western European country, but France lies between it and Germany.",
+        "trick": "Little Luxembourg touches Rheinland-Pfalz and Saarland."
+      }
     },
     {
       "id": "G230",
@@ -8677,7 +8772,12 @@
           "answerText": "5 Jahre."
         }
       ],
-      "pdfPage": 86
+      "pdfPage": 86,
+      "explanation": {
+        "why": "The European Parliament is elected every five years; the last election was in 2024.",
+        "trap": "6 Jahre is tempting as a near miss, but the European Parliament's term is five years, one year longer than the Bundestag's.",
+        "trick": "Europe every 5 years."
+      }
     },
     {
       "id": "G231",
@@ -8710,7 +8810,12 @@
           "answerText": "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU."
         }
       ],
-      "pdfPage": 86
+      "pdfPage": 86,
+      "explanation": {
+        "why": "'European integration' means European states joining together, which led to the EU.",
+        "trap": "'Einwanderungsstopp nach Europa' is tempting if you think of 'Integration' as a migration term, but here it means states growing together.",
+        "trick": "Integration = Europe growing together."
+      }
     },
     {
       "id": "G232",
@@ -8743,7 +8848,12 @@
           "answerText": "die Abgeordneten des Europäischen Parlaments"
         }
       ],
-      "pdfPage": 87
+      "pdfPage": 87,
+      "explanation": {
+        "why": "In the European elections citizens elect the members of the European Parliament.",
+        "trap": "Die Europäische Kommission is tempting because it is a major EU body, but it is proposed by governments and confirmed by Parliament, not elected by voters.",
+        "trick": "Europawahl = Europaparlament."
+      }
     },
     {
       "id": "G233",
@@ -8776,7 +8886,12 @@
           "answerText": "Tschechien"
         }
       ],
-      "pdfPage": 87
+      "pdfPage": 87,
+      "explanation": {
+        "why": "Czechia (Tschechien) borders Germany in the east, next to Bavaria and Saxony.",
+        "trap": "Bulgarien is tempting as an Eastern European country, but it is far to the south-east.",
+        "trick": "Tschechien: the neighbour of Bayern and Sachsen."
+      }
     },
     {
       "id": "G234",
@@ -8809,7 +8924,12 @@
           "answerText": "Straßburg"
         }
       ],
-      "pdfPage": 87
+      "pdfPage": 87,
+      "explanation": {
+        "why": "Strasbourg is the official seat of the European Parliament, where most plenary sessions take place.",
+        "trap": "Berlin is tempting as Germany's capital, but the Parliament meets in Strasbourg and Brussels.",
+        "trick": "Straßburg = Parliament."
+      }
     },
     {
       "id": "G235",
@@ -8844,7 +8964,12 @@
       ],
       "pdfPage": 88,
       "image": "/img/G235.png",
-      "imageCredit": "© Bundesregierung/Richard Schulze-Vorberg"
+      "imageCredit": "© Bundesregierung/Richard Schulze-Vorberg",
+      "explanation": {
+        "why": "The photo shows Mitterrand and Kohl holding hands at Verdun in 1984, a symbol of peace and reconciliation between former enemies, a core aim of the EU.",
+        "trap": "'Freundschaft zwischen England und Deutschland' is tempting because it is also about friendship, but the men in the photo are French and German.",
+        "trick": "Hands held at Verdun = peace in Europe."
+      }
     },
     {
       "id": "G236",
@@ -8877,7 +9002,12 @@
           "answerText": "27"
         }
       ],
-      "pdfPage": 89
+      "pdfPage": 89,
+      "explanation": {
+        "why": "As of October 2026 the EU has 27 member states, since the United Kingdom left in 2020; candidates such as Montenegro have not joined yet. Check before the test.",
+        "trap": "25 is tempting because the EU had 25 members after 2004, but Bulgaria, Romania and Croatia joined later.",
+        "trick": "27 after Brexit."
+      }
     },
     {
       "id": "G237",
@@ -8910,7 +9040,12 @@
           "answerText": "Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)"
         }
       ],
-      "pdfPage": 89
+      "pdfPage": 89,
+      "explanation": {
+        "why": "The Treaties of Rome (1957) founded the European Economic Community (EWG).",
+        "trap": "'Festlegung der Oder-Neiße-Linie' is tempting because it sounds like a big postwar treaty, but that border was settled in other treaties.",
+        "trick": "Rome 1957 = EWG."
+      }
     },
     {
       "id": "G238",
@@ -8943,7 +9078,12 @@
           "answerText": "Straßburg, Luxemburg und Brüssel"
         }
       ],
-      "pdfPage": 89
+      "pdfPage": 89,
+      "explanation": {
+        "why": "The European Parliament works in Strasbourg (plenary sessions), Brussels (committees and extra sessions) and Luxembourg (administration).",
+        "trap": "'Paris, London und Den Haag' is tempting because they are major European cities, but none of them hosts the Parliament.",
+        "trick": "S-L-B: Strasbourg, Luxembourg, Brussels."
+      }
     },
     {
       "id": "G239",
@@ -8976,7 +9116,12 @@
           "answerText": "durch die „Römischen Verträge“"
         }
       ],
-      "pdfPage": 90
+      "pdfPage": 90,
+      "explanation": {
+        "why": "The Treaties of Rome (1957) created the European Economic Community.",
+        "trap": "'Pariser Verträge' is tempting because the 1951 Treaty of Paris created the European Coal and Steel Community, but the EWG came from Rome.",
+        "trick": "Paris = coal and steel, Rome = EWG."
+      }
     },
     {
       "id": "G240",
@@ -9009,7 +9154,12 @@
           "answerText": "2002"
         }
       ],
-      "pdfPage": 90
+      "pdfPage": 90,
+      "explanation": {
+        "why": "Euro notes and coins came into use on 1 January 2002.",
+        "trap": "1998 is tempting because the euro was introduced as book money in 1999, but cash only came in 2002.",
+        "trick": "2002: euros in your wallet."
+      }
     },
     {
       "id": "G241",
@@ -9042,7 +9192,12 @@
           "answerText": "Sie muss einen Antrag bei der Elterngeldstelle stellen."
         }
       ],
-      "pdfPage": 90
+      "pdfPage": 90,
+      "explanation": {
+        "why": "Elterngeld is only paid if you apply for it at the Elterngeldstelle.",
+        "trap": "'Sie bekommt automatisch Elterngeld' is tempting, but no benefit like this is paid without an application.",
+        "trick": "No Antrag, no Elterngeld."
+      }
     },
     {
       "id": "G242",
@@ -9075,7 +9230,12 @@
           "answerText": "die Eltern / die Erziehungsberechtigten"
         }
       ],
-      "pdfPage": 91
+      "pdfPage": 91,
+      "explanation": {
+        "why": "Kindergarten is voluntary, so the parents or guardians decide whether their child goes.",
+        "trap": "Der Staat is tempting because the state runs many Kitas, but it only offers places; attendance is not compulsory.",
+        "trick": "School is compulsory, Kindergarten is not."
+      }
     },
     {
       "id": "G243",
@@ -9108,7 +9268,12 @@
           "answerText": "Sie müssen die Demonstration anmelden."
         }
       ],
-      "pdfPage": 91
+      "pdfPage": 91,
+      "explanation": {
+        "why": "Freedom of assembly is protected (Art. 8 GG), but outdoor demonstrations must be notified (angemeldet) to the authorities in advance.",
+        "trap": "'Man darf jederzeit überall demonstrieren' is tempting because of Art. 8 GG, but outdoor assemblies still have to be notified.",
+        "trick": "Anmelden, not asking permission."
+      }
     },
     {
       "id": "G244",
@@ -9141,7 +9306,12 @@
           "answerText": "das Abitur"
         }
       ],
-      "pdfPage": 91
+      "pdfPage": 91,
+      "explanation": {
+        "why": "The Abitur is the normal school qualification for starting a university degree.",
+        "trap": "Ein Diplom is tempting, but that is a university degree you get at the end, not the entry ticket.",
+        "trick": "Abitur opens the university door."
+      }
     },
     {
       "id": "G245",
@@ -9174,7 +9344,12 @@
           "answerText": "Anne (13 Jahre) und Tim (25 Jahre)"
         }
       ],
-      "pdfPage": 92
+      "pdfPage": 92,
+      "explanation": {
+        "why": "Anne is 13, and sexual contact with a child under 14 is a crime, so she may not live with 25-year-old Tim as a couple.",
+        "trap": "Tom and Klaus are tempting because they are two men with a big age gap, but both are adults and same-sex couples are legal.",
+        "trick": "Under 14 = child, protected by law."
+      }
     },
     {
       "id": "G246",
@@ -9207,7 +9382,12 @@
           "answerText": "18"
         }
       ],
-      "pdfPage": 92
+      "pdfPage": 92,
+      "explanation": {
+        "why": "In Germany you come of age at 18.",
+        "trap": "16 is tempting because some things are allowed from 16 (e.g. voting in Brandenburg), but full adulthood starts at 18.",
+        "trick": "18 = volljährig."
+      }
     },
     {
       "id": "G247",
@@ -9240,7 +9420,12 @@
           "answerText": "Mutterschutz"
         }
       ],
-      "pdfPage": 92
+      "pdfPage": 92,
+      "explanation": {
+        "why": "Mutterschutz protects pregnant women and mothers, usually six weeks before and eight weeks after the birth.",
+        "trap": "Elternzeit is tempting, but that is the longer parental leave either parent can take after the birth.",
+        "trick": "Mutter + Schutz around the birth."
+      }
     },
     {
       "id": "G248",
@@ -9273,7 +9458,12 @@
           "answerText": "der Eltern."
         }
       ],
-      "pdfPage": 93
+      "pdfPage": 93,
+      "explanation": {
+        "why": "Bringing up children is first of all the right and duty of the parents (Art. 6 GG).",
+        "trap": "Der Schulen is tempting because schools also educate, but upbringing is the parents' job first.",
+        "trick": "Parents first, school second."
+      }
     },
     {
       "id": "G249",
@@ -9306,7 +9496,12 @@
           "answerText": "die Eltern"
         }
       ],
-      "pdfPage": 93
+      "pdfPage": 93,
+      "explanation": {
+        "why": "Parents are mainly responsible for raising their children (Art. 6 GG).",
+        "trap": "Der Staat is tempting because it watches over children's welfare, but it only steps in when parents fail.",
+        "trick": "Same as Question 248: Eltern."
+      }
     },
     {
       "id": "G250",
@@ -9339,7 +9534,12 @@
           "answerText": "gut ausgebildet ist."
         }
       ],
-      "pdfPage": 93
+      "pdfPage": 93,
+      "explanation": {
+        "why": "In Germany a good education and training give you the best chances of a well-paid job.",
+        "trap": "'Mitglied einer Partei' is tempting if you think of connections, but party membership is not a hiring criterion.",
+        "trick": "Bildung pays."
+      }
     },
     {
       "id": "G251",
@@ -9372,7 +9572,12 @@
           "answerText": "kann man dafür bestraft werden."
         }
       ],
-      "pdfPage": 94
+      "pdfPage": 94,
+      "explanation": {
+        "why": "Children have a right to an upbringing without violence, so hitting a child can be punished as bodily harm.",
+        "trap": "'Geht nur die Familie etwas an' is tempting, but violence against children is never a private matter.",
+        "trick": "Hit a child, face the law."
+      }
     },
     {
       "id": "G252",
@@ -9405,7 +9610,12 @@
           "answerText": "darf man zur gleichen Zeit nur mit einem Partner / einer Partnerin verheiratet sein."
         }
       ],
-      "pdfPage": 94
+      "pdfPage": 94,
+      "explanation": {
+        "why": "Germany only allows one spouse at a time; bigamy is a crime.",
+        "trap": "'Darf nicht wieder heiraten' is tempting if you think of religious rules, but remarrying after divorce or a spouse's death is allowed.",
+        "trick": "One at a time."
+      }
     },
     {
       "id": "G253",
@@ -9438,7 +9648,12 @@
           "answerText": "beim Einwohnermeldeamt"
         }
       ],
-      "pdfPage": 94
+      "pdfPage": 94,
+      "explanation": {
+        "why": "After moving you must register your new address at the Einwohnermeldeamt (Bürgeramt), normally within two weeks.",
+        "trap": "Standesamt is tempting, but it handles births, marriages and deaths, not addresses.",
+        "trick": "Move = melden."
+      }
     },
     {
       "id": "G254",
@@ -9471,7 +9686,12 @@
           "answerText": "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich."
         }
       ],
-      "pdfPage": 95
+      "pdfPage": 95,
+      "explanation": {
+        "why": "The Trennungsjahr means the spouses live separate lives for at least a year before a divorce is normally possible.",
+        "trap": "'Der Scheidungsprozess dauert ein Jahr' is tempting, but the year is the separation before the divorce, not the court case.",
+        "trick": "Separate first, divorce later."
+      }
     },
     {
       "id": "G255",
@@ -9504,7 +9724,12 @@
           "answerText": "Jugendamt."
         }
       ],
-      "pdfPage": 95
+      "pdfPage": 95,
+      "explanation": {
+        "why": "The Jugendamt (youth welfare office) helps parents with problems raising their children.",
+        "trap": "Schulamt is tempting because it deals with children, but it runs schools and does not give family advice.",
+        "trick": "Jugend problems = Jugendamt."
+      }
     },
     {
       "id": "G256",
@@ -9537,7 +9762,12 @@
           "answerText": "eine Gaststättenerlaubnis von der zuständigen Behörde"
         }
       ],
-      "pdfPage": 95
+      "pdfPage": 95,
+      "explanation": {
+        "why": "Opening a restaurant needs approval from the responsible authority (Gaststättenerlaubnis), mainly because of serving alcohol; in Brandenburg this is now done by notifying the authority in advance.",
+        "trap": "'Eine Erlaubnis der Polizei' is tempting because the police enforce rules, but the trade or public order office is responsible.",
+        "trick": "Gaststätte needs Gaststättenerlaubnis."
+      }
     },
     {
       "id": "G257",
@@ -9570,7 +9800,12 @@
           "answerText": "einem Abendgymnasium."
         }
       ],
-      "pdfPage": 96
+      "pdfPage": 96,
+      "explanation": {
+        "why": "Adults can catch up on the Abitur at an Abendgymnasium (evening school).",
+        "trap": "Hochschule is tempting because it is higher education, but you normally need the Abitur before you can study there.",
+        "trick": "Abitur at night: Abendgymnasium."
+      }
     },
     {
       "id": "G258",
@@ -9603,7 +9838,12 @@
           "answerText": "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen."
         }
       ],
-      "pdfPage": 96
+      "pdfPage": 96,
+      "explanation": {
+        "why": "The Jugendamt may take a child out of the family if it is beaten or starving, to protect it.",
+        "trap": "'Es bezahlt das Kindergeld' is tempting, but Kindergeld is paid by the Familienkasse.",
+        "trick": "Jugendamt protects children."
+      }
     },
     {
       "id": "G259",
@@ -9636,7 +9876,12 @@
           "answerText": "Lehrstellensuche."
         }
       ],
-      "pdfPage": 96
+      "pdfPage": 96,
+      "explanation": {
+        "why": "The BIZ at the Bundesagentur für Arbeit helps with career choice and finding an apprenticeship (Lehrstelle).",
+        "trap": "Rentenberechnung is tempting because it is also a state service, but pensions are handled by the Rentenversicherung.",
+        "trick": "BIZ = Berufs-Information = job start."
+      }
     },
     {
       "id": "G260",
@@ -9669,7 +9914,12 @@
           "answerText": "Anwesenheitspflicht."
         }
       ],
-      "pdfPage": 97
+      "pdfPage": 97,
+      "explanation": {
+        "why": "School is compulsory in Germany, so children must attend (Anwesenheitspflicht).",
+        "trap": "'Wahlfreiheit für alle Fächer' is tempting, but most subjects are fixed by the curriculum.",
+        "trick": "Schulpflicht means turning up."
+      }
     },
     {
       "id": "G261",
@@ -9702,7 +9952,12 @@
           "answerText": "einem Abendgymnasium"
         }
       ],
-      "pdfPage": 97
+      "pdfPage": 97,
+      "explanation": {
+        "why": "Adults can take the Abitur at an Abendgymnasium.",
+        "trap": "Hochschule is tempting, but you need the Abitur to study there.",
+        "trick": "Same as Question 257: Abendgymnasium."
+      }
     },
     {
       "id": "G262",
@@ -9735,7 +9990,12 @@
           "answerText": "Niemand darf z. B. wegen einer Behinderung benachteiligt werden."
         }
       ],
-      "pdfPage": 97
+      "pdfPage": 97,
+      "explanation": {
+        "why": "Equal treatment means nobody may be disadvantaged, for example because of a disability (Art. 3 GG).",
+        "trap": "'Wenn ausreichende persönliche Gründe vorliegen' is tempting because it sounds reasonable, but personal reasons do not justify discrimination.",
+        "trick": "Equal treatment = no disadvantage."
+      }
     },
     {
       "id": "G263",
@@ -9768,7 +10028,12 @@
           "answerText": "werden bestraft."
         }
       ],
-      "pdfPage": 98
+      "pdfPage": 98,
+      "explanation": {
+        "why": "From 14 young people can be punished for crimes, though under juvenile criminal law.",
+        "trap": "'Werden wie Erwachsene behandelt' is tempting, but young people from 14 to 17 are tried under juvenile law, not adult law.",
+        "trick": "14 = punishable, 18 = adult."
+      }
     },
     {
       "id": "G264",
@@ -9801,7 +10066,12 @@
           "answerText": "am Rosenmontag"
         }
       ],
-      "pdfPage": 98
+      "pdfPage": 98,
+      "explanation": {
+        "why": "On Rosenmontag, the highlight of Carnival, people wear colourful costumes and masks.",
+        "trap": "Oktoberfest is tempting because it is a big party, but people wear Dirndl and Lederhosen there, not masks.",
+        "trick": "Rosenmontag = Karneval."
+      }
     },
     {
       "id": "G265",
@@ -9834,7 +10104,12 @@
           "answerText": "zum Standesamt"
         }
       ],
-      "pdfPage": 98
+      "pdfPage": 98,
+      "explanation": {
+        "why": "To get married you first go to the Standesamt (registry office).",
+        "trap": "Einwohnermeldeamt is tempting because it holds your personal data, but marriages are handled by the Standesamt.",
+        "trick": "Stand changes from ledig to verheiratet."
+      }
     },
     {
       "id": "G266",
@@ -9867,7 +10142,12 @@
           "answerText": "um 22 Uhr"
         }
       ],
-      "pdfPage": 99
+      "pdfPage": 99,
+      "explanation": {
+        "why": "The night rest period usually starts at 22:00 (10 pm).",
+        "trap": "'Um 0 Uhr, Mitternacht' is tempting because it sounds like the start of the night, but quiet hours begin at 22:00.",
+        "trick": "22 Uhr: Ruhe."
+      }
     },
     {
       "id": "G267",
@@ -9900,7 +10180,12 @@
           "answerText": "Sie müssen die Entscheidung der volljährigen Tochter respektieren."
         }
       ],
-      "pdfPage": 99
+      "pdfPage": 99,
+      "explanation": {
+        "why": "A 22-year-old is an adult, so her parents must respect her choice of partner.",
+        "trap": "'Das Recht, die Tochter zurückzuholen' is tempting from a traditional view, but parents have no such right over an adult.",
+        "trick": "Adult daughter, her decision."
+      }
     },
     {
       "id": "G268",
@@ -9933,7 +10218,12 @@
           "answerText": "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl."
         }
       ],
-      "pdfPage": 99
+      "pdfPage": 99,
+      "explanation": {
+        "why": "The driving theory test can be taken in several foreign languages, more than ten in total.",
+        "trap": "'Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben' is tempting, but German is not required for a driving licence.",
+        "trick": "Theory test in many languages."
+      }
     },
     {
       "id": "G269",
@@ -9966,7 +10256,12 @@
           "answerText": "einen Kindergartenplatz."
         }
       ],
-      "pdfPage": 100
+      "pdfPage": 100,
+      "explanation": {
+        "why": "Children from age three until they start school have a legal right to a place in a Kindergarten.",
+        "trap": "'Einen Platz in einem Sportverein' is tempting because clubs are popular, but there is no legal right to it.",
+        "trick": "From 3: Kita place guaranteed."
+      }
     },
     {
       "id": "G270",
@@ -9999,7 +10294,12 @@
           "answerText": "zur Weiterbildung."
         }
       ],
-      "pdfPage": 100
+      "pdfPage": 100,
+      "explanation": {
+        "why": "The Volkshochschule offers further education courses for adults of all ages.",
+        "trap": "'Nur für Rentnerinnen und Rentner' is tempting because many retirees attend, but courses are open to everyone.",
+        "trick": "VHS = learning for everyone."
+      }
     },
     {
       "id": "G271",
@@ -10032,7 +10332,12 @@
           "answerText": "einen Tannenbaum schmücken"
         }
       ],
-      "pdfPage": 100
+      "pdfPage": 100,
+      "explanation": {
+        "why": "At Christmas people decorate a fir tree (Tannenbaum).",
+        "trap": "'Bunte Eier verstecken' is tempting as a festive custom, but that belongs to Easter.",
+        "trick": "Christmas tree, Easter eggs."
+      }
     },
     {
       "id": "G272",
@@ -10065,7 +10370,12 @@
           "answerText": "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet."
         }
       ],
-      "pdfPage": 101
+      "pdfPage": 101,
+      "explanation": {
+        "why": "Being married to two people at once is bigamy and not allowed.",
+        "trap": "'Zwei Frauen leben zusammen' is tempting if you think of conservative rules, but same-sex couples are legal and can marry.",
+        "trick": "Two wives = illegal."
+      }
     },
     {
       "id": "G273",
@@ -10098,7 +10408,12 @@
           "answerText": "zum Jugendamt."
         }
       ],
-      "pdfPage": 101
+      "pdfPage": 101,
+      "explanation": {
+        "why": "For problems raising children you go to the Jugendamt.",
+        "trap": "Gesundheitsamt is tempting because it deals with families, but it handles public health.",
+        "trick": "Same as Question 255: Jugendamt."
+      }
     },
     {
       "id": "G274",
@@ -10131,7 +10446,12 @@
           "answerText": "das Briefgeheimnis"
         }
       ],
-      "pdfPage": 101
+      "pdfPage": 101,
+      "explanation": {
+        "why": "Opening someone else's letter on purpose breaks the secrecy of correspondence (Briefgeheimnis, Art. 10 GG).",
+        "trap": "Die Schweigepflicht is tempting, but that is the duty of doctors or lawyers to keep secrets.",
+        "trick": "Letter = Briefgeheimnis."
+      }
     },
     {
       "id": "G275",
@@ -10164,7 +10484,12 @@
           "answerText": "die Unterstützung eines Anwalts / einer Anwältin"
         }
       ],
-      "pdfPage": 102
+      "pdfPage": 102,
+      "explanation": {
+        "why": "To apply for a divorce at the family court you need a lawyer.",
+        "trap": "'Die Einwilligung der Eltern' is tempting from a traditional view, but adults divorce without their parents' consent.",
+        "trick": "Divorce needs an Anwalt."
+      }
     },
     {
       "id": "G276",
@@ -10197,7 +10522,12 @@
           "answerText": "Ich kann mich beim Behördenleiter / bei der Behördenleiterin beschweren."
         }
       ],
-      "pdfPage": 102
+      "pdfPage": 102,
+      "explanation": {
+        "why": "If an official treats you badly you can complain to the head of the authority.",
+        "trap": "'Ich muss mir diese Behandlung gefallen lassen' is tempting if you feel powerless, but you have a right to complain.",
+        "trick": "Bad service? Go up the chain."
+      }
     },
     {
       "id": "G277",
@@ -10230,7 +10560,12 @@
           "answerText": "Mutter ist."
         }
       ],
-      "pdfPage": 102
+      "pdfPage": 102,
+      "explanation": {
+        "why": "Refusing her the job only because she is a mother is discrimination.",
+        "trap": "'Kein Englisch' is tempting, but required skills are a legitimate reason to choose someone else.",
+        "trick": "Skills count, motherhood does not."
+      }
     },
     {
       "id": "G278",
@@ -10263,7 +10598,12 @@
           "answerText": "im Rollstuhl sitzt."
         }
       ],
-      "pdfPage": 103
+      "pdfPage": 103,
+      "explanation": {
+        "why": "Refusing the job only because he uses a wheelchair is discrimination; an accountant can do the job sitting down.",
+        "trap": "'Keine Erfahrung' is tempting, but lack of experience is a legitimate reason.",
+        "trick": "Skills count, the wheelchair does not."
+      }
     },
     {
       "id": "G279",
@@ -10296,7 +10636,12 @@
           "answerText": "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen."
         }
       ],
-      "pdfPage": 103
+      "pdfPage": 103,
+      "explanation": {
+        "why": "The Hausordnung contains rules all residents must follow, e.g. quiet hours or cleaning the stairs.",
+        "trap": "'Alle Mieterinnen und Mieter im Haus' is tempting because it is about the building, but it is a set of rules, not a list of names.",
+        "trick": "Hausordnung = house rules."
+      }
     },
     {
       "id": "G280",
@@ -10329,7 +10674,12 @@
           "answerText": "Einspruch einlegen."
         }
       ],
-      "pdfPage": 103
+      "pdfPage": 103,
+      "explanation": {
+        "why": "Against a wrong tax assessment you lodge an objection (Einspruch) with the tax office, normally within one month.",
+        "trap": "'Warten, bis ein anderer Bescheid kommt' is tempting, but if you do nothing the assessment becomes final.",
+        "trick": "Wrong Steuerbescheid? Einspruch."
+      }
     },
     {
       "id": "G281",
@@ -10362,7 +10712,12 @@
           "answerText": "Gleichbehandlung."
         }
       ],
-      "pdfPage": 104
+      "pdfPage": 104,
+      "explanation": {
+        "why": "Turning people away because of their skin colour breaks the right to equal treatment (Art. 3 GG).",
+        "trap": "Freizügigkeit is tempting because they are refused entry, but that right is about moving freely within Germany.",
+        "trick": "Skin colour = Gleichbehandlung."
+      }
     },
     {
       "id": "G282",
@@ -10395,7 +10750,12 @@
           "answerText": "Wahlhelfer / Wahlhelferin"
         }
       ],
-      "pdfPage": 104
+      "pdfPage": 104,
+      "explanation": {
+        "why": "German citizens who are called on to be election helpers (Wahlhelfer) must accept unless they have an important reason.",
+        "trap": "Lehrerin/Lehrer is tempting because it is a public role, but it is a paid job, not a compulsory honorary role.",
+        "trick": "Elections need helpers, and you can be called up."
+      }
     },
     {
       "id": "G283",
@@ -10428,7 +10788,12 @@
           "answerText": "Ich lege Widerspruch bei der Behörde ein."
         }
       ],
-      "pdfPage": 104
+      "pdfPage": 104,
+      "explanation": {
+        "why": "If an authority sends you a wrong bill, you lodge an objection (Widerspruch) with that authority.",
+        "trap": "'Zum Finanzamt gehen' is tempting because it deals with money, but each authority handles objections to its own bills.",
+        "trick": "Wrong bill from a Behörde? Widerspruch."
+      }
     },
     {
       "id": "G284",
@@ -10461,7 +10826,12 @@
           "answerText": "Erwachsene müssen auch nach der Ausbildung immer weiter lernen."
         }
       ],
-      "pdfPage": 105
+      "pdfPage": 105,
+      "explanation": {
+        "why": "Because skills change fast, adults must keep learning after their training (lifelong learning).",
+        "trap": "'Kinder lernen in der Schule alles' is tempting, but school cannot teach everything you will need for a whole career.",
+        "trick": "Never stop learning."
+      }
     },
     {
       "id": "G285",
@@ -10494,7 +10864,12 @@
           "answerText": "Umsatzsteuer"
         }
       ],
-      "pdfPage": 105
+      "pdfPage": 105,
+      "explanation": {
+        "why": "Umsatzsteuer (VAT) is charged on goods and services, not deducted from wages.",
+        "trap": "Lohnsteuer is tempting to exclude, but it is exactly the tax taken from an employee's salary.",
+        "trick": "Lohn = salary tax, Umsatz = sales tax."
+      }
     },
     {
       "id": "G286",
@@ -10527,7 +10902,12 @@
           "answerText": "der Betriebsrat"
         }
       ],
-      "pdfPage": 105
+      "pdfPage": 105,
+      "explanation": {
+        "why": "The Betriebsrat (works council) represents employees and helps them with problems with the employer.",
+        "trap": "Betriebsmanagement is tempting because of the name, but management represents the employer.",
+        "trick": "Betriebsrat = staff's voice."
+      }
     },
     {
       "id": "G287",
@@ -10560,7 +10940,12 @@
           "answerText": "die Kündigungsfrist"
         }
       ],
-      "pdfPage": 106
+      "pdfPage": 106,
+      "explanation": {
+        "why": "If you want to end your job you must respect the notice period (Kündigungsfrist).",
+        "trap": "Die Arbeitszeit is tempting because it is part of the contract, but leaving depends on the notice period.",
+        "trick": "Quitting? Mind the Frist."
+      }
     },
     {
       "id": "G288",
@@ -10593,7 +10978,12 @@
           "answerText": "aus den nationalsozialistischen Verbrechen gegen Juden"
         }
       ],
-      "pdfPage": 106
+      "pdfPage": 106,
+      "explanation": {
+        "why": "Germany's special responsibility for Israel comes from the Nazi crimes against Jews, above all the Holocaust.",
+        "trap": "'Aus dem Grundgesetz' is tempting because it is Germany's basic law, but the Grundgesetz does not mention Israel.",
+        "trick": "Holocaust = historical responsibility."
+      }
     },
     {
       "id": "G289",
@@ -10626,7 +11016,12 @@
           "answerText": "er eine dunkle Haut hat."
         }
       ],
-      "pdfPage": 107
+      "pdfPage": 107,
+      "explanation": {
+        "why": "Rejecting him only because of his skin colour is discrimination.",
+        "trap": "'Seine Deutschkenntnisse sind zu gering' is tempting, but language skills can be a legitimate job requirement.",
+        "trick": "Skin colour is never a reason."
+      }
     },
     {
       "id": "G290",
@@ -10659,7 +11054,12 @@
           "answerText": "den Fernseher reklamieren"
         }
       ],
-      "pdfPage": 108
+      "pdfPage": 108,
+      "explanation": {
+        "why": "A new item that does not work can be returned to the seller with a complaint (reklamieren); you have a statutory warranty.",
+        "trap": "'Das Gerät ungefragt austauschen' is tempting, but you cannot just swap it yourself without the shop's agreement.",
+        "trick": "Kaputt? Reklamieren."
+      }
     },
     {
       "id": "G291",
@@ -10692,7 +11092,12 @@
           "answerText": "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft ist."
         }
       ],
-      "pdfPage": 108
+      "pdfPage": 108,
+      "explanation": {
+        "why": "Church tax (Kirchensteuer) is calculated as a share of income tax, so the tax office needs to know if you belong to a church.",
+        "trap": "'Für die Statistik' is tempting because the state collects data, but the reason is the church tax.",
+        "trick": "Church member = Kirchensteuer."
+      }
     },
     {
       "id": "G292",
@@ -10725,7 +11130,12 @@
           "answerText": "Jeder kann glauben, was er möchte."
         }
       ],
-      "pdfPage": 108
+      "pdfPage": 108,
+      "explanation": {
+        "why": "Religious tolerance means everyone may believe what they want (Art. 4 GG).",
+        "trap": "'Der Staat entscheidet, an welchen Gott' is tempting if you think of a state church, but Germany is religiously neutral.",
+        "trick": "Your faith, your choice."
+      }
     },
     {
       "id": "G293",
@@ -10758,7 +11168,12 @@
           "answerText": "Eier bemalen"
         }
       ],
-      "pdfPage": 109
+      "pdfPage": 109,
+      "explanation": {
+        "why": "At Easter people paint eggs.",
+        "trap": "'Einen Tannenbaum schmücken' is tempting as a festive custom, but that belongs to Christmas.",
+        "trick": "Easter = Eier."
+      }
     },
     {
       "id": "G294",
@@ -10791,7 +11206,12 @@
           "answerText": "christlicher Feiertag."
         }
       ],
-      "pdfPage": 109
+      "pdfPage": 109,
+      "explanation": {
+        "why": "Pentecost (Pfingsten) is a Christian holiday, 50 days after Easter.",
+        "trap": "'Bayerischer Brauch' is tempting because Bavaria has many holidays, but Pfingsten is celebrated throughout Germany.",
+        "trick": "Pfingsten: Christian, 50 days after Easter."
+      }
     },
     {
       "id": "G295",
@@ -10824,7 +11244,12 @@
           "answerText": "das Christentum"
         }
       ],
-      "pdfPage": 109
+      "pdfPage": 109,
+      "explanation": {
+        "why": "European and German culture has been shaped above all by Christianity.",
+        "trap": "Der Islam is tempting because many Muslims live in Germany today, but historically Christianity shaped the culture.",
+        "trick": "Churches in every village."
+      }
     },
     {
       "id": "G296",
@@ -10857,7 +11282,12 @@
           "answerText": "die Adventszeit."
         }
       ],
-      "pdfPage": 110
+      "pdfPage": 110,
+      "explanation": {
+        "why": "The four weeks before Christmas are Advent (Adventszeit).",
+        "trap": "Allerheiligen is tempting because it is also in late autumn, but it is a single day on 1 November.",
+        "trick": "Four candles, four Advent Sundays."
+      }
     },
     {
       "id": "G297",
@@ -10890,7 +11320,12 @@
           "answerText": "Türkei"
         }
       ],
-      "pdfPage": 110
+      "pdfPage": 110,
+      "explanation": {
+        "why": "Turkey is the largest country of origin when you count immigrants and their descendants (about 2.6 million in the 2025 Mikrozensus). As of October 2026, Poland has slightly more first-generation immigrants, so the catalogue answer is Türkei. Check before the test.",
+        "trap": "Polen is tempting because it now leads among people born abroad, but the catalogue and the overall count point to Turkey.",
+        "trick": "Gastarbeiter from Turkey: biggest community."
+      }
     },
     {
       "id": "G298",
@@ -10923,7 +11358,12 @@
           "answerText": "Vietnam, Polen, Mosambik."
         }
       ],
-      "pdfPage": 110
+      "pdfPage": 110,
+      "explanation": {
+        "why": "The DDR recruited 'Vertragsarbeiter' (contract workers) mainly from Vietnam, Poland and Mozambique.",
+        "trap": "'Chile, Ungarn, Simbabwe' is tempting because some Chilean exiles did live in the DDR, but the big groups were Vietnamese, Polish and Mozambican workers.",
+        "trick": "V-P-M: Vietnam, Poland, Mozambique."
+      }
     },
     {
       "id": "G299",
@@ -10956,7 +11396,12 @@
           "answerText": "Gastarbeiter / Gastarbeiterinnen."
         }
       ],
-      "pdfPage": 111
+      "pdfPage": 111,
+      "explanation": {
+        "why": "Foreign workers recruited by West Germany in the 1950s and 1960s were called Gastarbeiter ('guest workers').",
+        "trap": "Zeitarbeiter is tempting because they were meant to stay for a limited time, but that term means agency workers.",
+        "trick": "Guests who stayed."
+      }
     },
     {
       "id": "G300",
@@ -10989,7 +11434,12 @@
           "answerText": "Italien"
         }
       ],
-      "pdfPage": 111
+      "pdfPage": 111,
+      "explanation": {
+        "why": "The first Gastarbeiter came from Italy, after the recruitment agreement of 1955.",
+        "trap": "Türkei is tempting because it became the biggest group, but its agreement came later, in 1961.",
+        "trick": "Italy first (1955), Turkey later (1961)."
+      }
     },
     {
       "id": "BB1",
@@ -11025,7 +11475,12 @@
       ],
       "pdfPage": 127,
       "image": "/img/BB1.png",
-      "note": "Picture-numbered options; checked by hand that the PDF and the Online-Testcenter show the pictures in the same order."
+      "note": "Picture-numbered options; checked by hand that the PDF and the Online-Testcenter show the pictures in the same order.",
+      "explanation": {
+        "why": "Bild 1 shows Brandenburg's coat of arms: a red eagle on a white shield (the Märkischer Adler).",
+        "trap": "Bild 4 is tempting because it also shows animals, but the three black lions are Baden-Württemberg's.",
+        "trick": "Red eagle = Brandenburg."
+      }
     },
     {
       "id": "BB2",
@@ -11059,7 +11514,12 @@
           "answerText": "Prignitz"
         }
       ],
-      "pdfPage": 127
+      "pdfPage": 127,
+      "explanation": {
+        "why": "Prignitz is a Landkreis in north-west Brandenburg.",
+        "trap": "Vogtlandkreis is tempting because it is also in eastern Germany, but it is in Sachsen.",
+        "trick": "Prignitz: Brandenburg's north-west corner."
+      }
     },
     {
       "id": "BB3",
@@ -11093,7 +11553,12 @@
           "answerText": "5"
         }
       ],
-      "pdfPage": 128
+      "pdfPage": 128,
+      "explanation": {
+        "why": "As of October 2026 the Landtag in Brandenburg is elected for 5 years; the last election was in September 2024 and the next is expected in autumn 2029. Check before the test.",
+        "trap": "4 is tempting because the Bundestag is elected every four years, but Brandenburg's Landtag term is five.",
+        "trick": "Landtag: five years, like most Länder."
+      }
     },
     {
       "id": "BB4",
@@ -11127,7 +11592,12 @@
           "answerText": "16"
         }
       ],
-      "pdfPage": 128
+      "pdfPage": 128,
+      "explanation": {
+        "why": "As of October 2026 you can vote in Brandenburg's local elections from age 16 (and in Landtag elections too). Check before the test.",
+        "trap": "18 is tempting because it is the voting age for the Bundestag, but Brandenburg lowered it to 16.",
+        "trick": "Brandenburg: vote at 16."
+      }
     },
     {
       "id": "BB5",
@@ -11161,7 +11631,12 @@
           "answerText": "rot-weiß"
         }
       ],
-      "pdfPage": 128
+      "pdfPage": 128,
+      "explanation": {
+        "why": "Brandenburg's flag is red and white (rot-weiß), with the red eagle on it.",
+        "trap": "Schwarz-gelb is tempting if you mix it up with other flags, but the red eagle on white gives red and white.",
+        "trick": "Red eagle, white shield, red-white flag."
+      }
     },
     {
       "id": "BB6",
@@ -11195,7 +11670,12 @@
           "answerText": "bei der Landeszentrale für politische Bildung"
         }
       ],
-      "pdfPage": 129
+      "pdfPage": 129,
+      "explanation": {
+        "why": "The Brandenburgische Landeszentrale für politische Bildung in Potsdam provides neutral information on political topics.",
+        "trap": "Verbraucherzentrale is tempting because it also gives advice, but it is about consumer rights.",
+        "trick": "Politische Bildung = political information."
+      }
     },
     {
       "id": "BB7",
@@ -11229,7 +11709,12 @@
           "answerText": "Potsdam."
         }
       ],
-      "pdfPage": 129
+      "pdfPage": 129,
+      "explanation": {
+        "why": "As of October 2026 the capital of Brandenburg is Potsdam. Check before the test.",
+        "trap": "Brandenburg (an der Havel) is tempting because the Land is named after it, but the capital is Potsdam.",
+        "trick": "Potsdam: Sanssouci and the Landtag."
+      }
     },
     {
       "id": "BB8",
@@ -11265,7 +11750,12 @@
       ],
       "pdfPage": 130,
       "image": "/img/BB8.png",
-      "note": "Map-numbered options; checked by hand that marker 4 points to Brandenburg in both the PDF map and the Online-Testcenter map."
+      "note": "Map-numbered options; checked by hand that marker 4 points to Brandenburg in both the PDF map and the Online-Testcenter map.",
+      "explanation": {
+        "why": "On the map, number 4 is Brandenburg, the Land that surrounds Berlin.",
+        "trap": "Number 3 is tempting because it is also in the north-east, but that is Mecklenburg-Vorpommern on the Baltic coast.",
+        "trick": "Find the hole for Berlin: that is Brandenburg."
+      }
     },
     {
       "id": "BB9",
@@ -11299,7 +11789,12 @@
           "answerText": "Ministerpräsident / Ministerpräsidentin"
         }
       ],
-      "pdfPage": 131
+      "pdfPage": 131,
+      "explanation": {
+        "why": "The head of government in Brandenburg is called Ministerpräsidentin/Ministerpräsident. As of October 2026 it is Dietmar Woidke (SPD), leading an SPD-CDU coalition since March 2026. Check before the test.",
+        "trap": "Erster Minister is tempting because it sounds like 'first minister', but that title is used in Scotland or Wales, not in German Länder.",
+        "trick": "Länder have Ministerpräsidenten."
+      }
     },
     {
       "id": "BB10",
@@ -11333,7 +11828,12 @@
           "answerText": "Außenminister / Außenministerin"
         }
       ],
-      "pdfPage": 131
+      "pdfPage": 131,
+      "explanation": {
+        "why": "Foreign policy is a federal matter (Art. 32 GG), so Brandenburg has no Außenminister.",
+        "trap": "Justizminister is tempting if you think justice is national, but the Länder run their own courts and have justice ministers.",
+        "trick": "Außen = Bund."
+      }
     }
   ]
 }

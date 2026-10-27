@@ -60,8 +60,15 @@ describe('explanation field', () => {
   });
 });
 
-describe('explanations G1-G210 (Batches 3-5)', () => {
-  const target = Array.from({ length: 210 }, (_, i) => `G${i + 1}`);
+describe('explanations for all 310 questions (Batches 3-6)', () => {
+  const target = [
+    ...Array.from({ length: 300 }, (_, i) => `G${i + 1}`),
+    ...Array.from({ length: 10 }, (_, i) => `BB${i + 1}`),
+  ];
+  it('covers every question in the catalogue', () => {
+    expect(target).toHaveLength(310);
+    expect(qs.every((q) => q.explanation?.why && q.explanation.trap && q.explanation.trick)).toBe(true);
+  });
   const byId = new Map(qs.map((q) => [q.id, q]));
   it.each(target)('%s has why, trap and trick', (id) => {
     const e = byId.get(id)?.explanation;
@@ -72,10 +79,11 @@ describe('explanations G1-G210 (Batches 3-5)', () => {
     }
   });
   // Questions whose answer depends on who is in office or current figures.
-  const TIME_SENSITIVE = ['G72', 'G73', 'G75'];
+  const TIME_SENSITIVE = ['G72', 'G73', 'G75', 'G213', 'G236', 'G297', 'BB3', 'BB4', 'BB7', 'BB9'];
   it.each(TIME_SENSITIVE)('%s states the current fact and says "check before the test"', (id) => {
     const why = byId.get(id)?.explanation?.why ?? '';
     expect(why).toMatch(/As of \w+ \d{4}/);
+    if (id.startsWith('BB') || ['G213', 'G236', 'G297'].includes(id)) expect(why).toContain('As of October 2026');
     expect(why.toLowerCase()).toContain('check before the test');
     const q = byId.get(id)!;
     const answer = q.options[q.answerIndex]!.replace(/\.$/, '');
@@ -87,6 +95,11 @@ describe('explanations G1-G210 (Batches 3-5)', () => {
     G181: /photo/i,
     G187: /hammer, compass/i,
     G209: /Bild 4.*hammer and compass/i,
+    G216: /eagle/i,
+    G226: /Bild 2.*12 gold stars/i,
+    G235: /photo.*Verdun/i,
+    BB1: /Bild 1.*red eagle/i,
+    BB8: /number 4/i,
   };
   it.each(Object.keys(PICTURES))('%s describes its picture', (id) => {
     const q = byId.get(id)!;
@@ -99,6 +112,7 @@ describe('explanations G1-G210 (Batches 3-5)', () => {
     G162: ['20 July 1944'], G163: ['1938'], G164: ['9 November 1938'], G169: ['1949'],
     G174: ['7 October 1949'], G186: ['17 June 1953'], G188: ['1961'], G189: ['1961'],
     G191: ['9 November 1989'], G194: ['3 October', '1990'], G204: ['3 October 1990'], G210: ['17 June 1953'],
+    G217: ['1949', '1990'], G219: ['1990'], G220: ['27 January 1945'], G237: ['1957'], G240: ['2002'], G300: ['1955'],
   };
   it.each(Object.keys(DATES))('%s gives the key date', (id) => {
     const why = byId.get(id)?.explanation?.why ?? '';
