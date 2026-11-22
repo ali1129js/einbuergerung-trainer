@@ -38,7 +38,7 @@ npm test
 
 ## App (Batch 2)
 
-Themes: Light, Dark blue and Dark grey (header half-circle button, or Progress > Appearance). The default follows the device (dark = Dark blue); the choice is stored in localStorage (`einb-trainer.theme.v1`, zod-validated) and applied before first paint by an inline script in index.html. All colours are CSS variables in src/index.css; tests/theme.test.ts checks WCAG AA contrast for every theme.
+Themes: Khaki, Graphite and Midnight (header theme button, or Progress > Appearance). The default follows the device (dark = Graphite). Older stored Light / Dark blue / Dark grey values are migrated. A motion toggle sits next to the theme switch and defaults to static; `prefers-reduced-motion` always forces static. The choice is stored in localStorage (`einb-trainer.theme.v1` and `einb-trainer.motion.v1`, zod-validated) and applied before first paint by an inline script in index.html. All colours are CSS variables in src/index.css; tests/theme.test.ts checks WCAG AA contrast for every theme.
 
 Pictures: tap or click any question picture (practice, weak questions, mock test and its review) to open it large in an accessible lightbox (role=dialog + aria-modal, focus trap, Esc / backdrop / × to close, focus returns to the picture). The picture sits on a white backing in every theme with its alt text as caption; pinch zoom is not blocked and the mock-test timer keeps running. Tests: tests/lightbox.test.tsx (jsdom + Testing Library).
 
