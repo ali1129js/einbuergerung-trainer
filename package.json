@@ -18,19 +18,19 @@
     "@testing-library/react": "^16.3.3",
     "@types/jsdom": "^30.0.0",
     "@types/node": "^20.19.43",
-    "@types/react": "^18.3.31",
-    "@types/react-dom": "^18.3.7",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@types/react": "^19.3.1",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
     "jsdom": "^26.1.0",
     "typescript": "5.9",
-    "vite": "^6.4.5",
+    "vite": "^7.3.8",
     "vite-plugin-pwa": "^1.1.0",
     "vitest": "^4.1.12",
     "zod": "^4.6.7"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "wouter": "^3.13.0"
   }
 }
