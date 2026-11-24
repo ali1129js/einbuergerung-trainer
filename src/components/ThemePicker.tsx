@@ -1,5 +1,6 @@
 import { useEffect, useId, useRef, useState } from "react";
 import { THEMES, type Theme } from "@/lib/theme";
+import { useLocale } from "@/state/LocaleContext";
 import { useTheme } from "@/state/ThemeContext";
 
 const SWATCH: Record<Theme, [string, string]> = {
@@ -11,10 +12,11 @@ const SWATCH: Record<Theme, [string, string]> = {
 /** Radio group of the three themes. */
 export function ThemeOptions({ onPicked }: { onPicked?: () => void }) {
   const { theme, chosen, setTheme } = useTheme();
+  const { t } = useLocale();
   const name = useId();
   return (
     <fieldset className="theme-options">
-      <legend className="small muted">Theme{chosen ? "" : " (following your device)"}</legend>
+      <legend className="small muted">{chosen ? t.theme : t.themeFollowingDevice}</legend>
       {THEMES.map((t) => (
         <label key={t.id} className="theme-option">
           <input
@@ -37,6 +39,7 @@ export function ThemeOptions({ onPicked }: { onPicked?: () => void }) {
 
 /** Small header button that opens the theme options. */
 export function ThemeButton() {
+  const { t } = useLocale();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const panelId = useId();
@@ -57,7 +60,7 @@ export function ThemeButton() {
       <button
         type="button"
         className="icon-btn"
-        aria-label="Change theme"
+        aria-label={t.changeTheme}
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((o) => !o)}

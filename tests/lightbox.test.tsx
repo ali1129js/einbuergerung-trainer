@@ -4,6 +4,7 @@ import path from "node:path";
 import { act, cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { QuestionView } from "../src/components/QuestionView";
+import { LocaleProvider } from "../src/state/LocaleContext";
 import { QUESTIONS } from "../src/lib/questions";
 
 const picture = QUESTIONS.find((q) => q.image)!;
@@ -11,7 +12,7 @@ const plain = QUESTIONS.find((q) => !q.image)!;
 
 function setup(selected?: number) {
   const onSelect = vi.fn();
-  render(<QuestionView q={picture} selected={selected} reveal={false} onSelect={onSelect} label="Question 1 of 33" />);
+  render(<LocaleProvider><QuestionView q={picture} selected={selected} reveal={false} onSelect={onSelect} label="Question 1 of 33" /></LocaleProvider>);
   const thumb = screen.getByRole("button", { name: /enlarge picture/i });
   return { onSelect, thumb };
 }
@@ -41,7 +42,7 @@ describe("picture lightbox", () => {
     expect(thumb.querySelector(".zoom-hint svg")).not.toBeNull();
     expect(thumb.querySelector(".zoom-hint")?.getAttribute("aria-hidden")).toBe("true");
     cleanup();
-    render(<QuestionView q={plain} selected={undefined} reveal={false} onSelect={() => {}} />);
+    render(<LocaleProvider><QuestionView q={plain} selected={undefined} reveal={false} onSelect={() => {}} /></LocaleProvider>);
     expect(screen.queryByRole("button", { name: /enlarge picture/i })).toBeNull();
   });
 

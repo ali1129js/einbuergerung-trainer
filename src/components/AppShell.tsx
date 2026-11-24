@@ -1,6 +1,9 @@
 import type { ReactNode } from "react";
 import { Link, useLocation } from "wouter";
+import { fill } from "@/lib/i18n";
+import { useLocale } from "@/state/LocaleContext";
 import { useProgress } from "@/state/ProgressContext";
+import { LocaleToggle } from "./LocaleToggle";
 import { MotionToggle } from "./MotionToggle";
 import { ThemeButton } from "./ThemePicker";
 
@@ -10,36 +13,37 @@ export function daysUntilTest(now = new Date()): number {
   return Math.max(0, Math.ceil((TEST_DATE.getTime() - now.getTime()) / 86_400_000));
 }
 
-const NAV = [
-  { href: "/", label: "Home" },
-  { href: "/practice", label: "Practice" },
-  { href: "/test", label: "Mock test" },
-  { href: "/weak", label: "Weak spots" },
-  { href: "/progress", label: "Progress" },
-];
-
 export function AppShell({ children }: { children: ReactNode }) {
   const [path] = useLocation();
   const { loadError } = useProgress();
+  const { t } = useLocale();
   const days = daysUntilTest();
+  const nav = [
+    { href: "/", label: t.navHome },
+    { href: "/practice", label: t.navPractice },
+    { href: "/test", label: t.navMock },
+    { href: "/weak", label: t.navWeak },
+    { href: "/progress", label: t.navProgress },
+  ];
   return (
     <div>
       <header className="topbar">
         <div className="topbar__inner">
           <Link href="/" className="brand">
-            Einbürgerungstest Trainer
-            <small>Leben in Deutschland · Brandenburg</small>
+            {t.brandTitle}
+            <small>{t.brandSub}</small>
           </Link>
-          <span className="countdown" title="Test date: 8 Dec 2026">
-            {days} days to go
+          <span className="countdown" title={t.testDateTitle}>
+            {days === 1 ? t.daysToGoOne : fill(t.daysToGo, { days })}
           </span>
           <div className="theme-tools">
+            <LocaleToggle />
             <ThemeButton />
             <MotionToggle />
           </div>
         </div>
-        <nav className="nav" aria-label="Main navigation">
-          {NAV.map((n) => {
+        <nav className="nav" aria-label={t.navMain}>
+          {nav.map((n) => {
             const active = n.href === "/" ? path === "/" : path.startsWith(n.href);
             return (
               <Link key={n.href} href={n.href} aria-current={active ? "page" : undefined}>
@@ -52,12 +56,11 @@ export function AppShell({ children }: { children: ReactNode }) {
       </header>
       {loadError && (
         <div role="alert" className="alert" style={{ margin: 14 }}>
-          <strong>Saved progress could not be read.</strong> It was kept unchanged under{" "}
-          <code>{loadError.backupKey}</code>. Starting with empty progress.
+          <strong>{t.loadError}</strong> {fill(t.loadErrorKept, { key: loadError.backupKey })}
         </div>
       )}
       <main className="page">{children}</main>
-      <footer className="footer">Questions: BAMF Gesamtfragenkatalog. Explanations are study help, not official.</footer>
+      <footer className="footer">{t.footer}</footer>
     </div>
   );
 }
@@ -71,7 +74,7 @@ export function Kpi({ label, value, accent }: { label: string; value: ReactNode;
   );
 }
 
-export function TopicBar({ total, mastered, seen, weak }: { total: number; mastered: number; seen: number; weak: number }) {
+export function TopicBar({ total, mastered, seen, weak, label }: { total: number; mastered: number; seen: number; weak: number; label?: string }) {
   const p = (n: number) => (total ? (n / total) * 100 : 0);
   const otherSeen = Math.max(0, seen - mastered - weak);
   return (
@@ -81,7 +84,7 @@ export function TopicBar({ total, mastered, seen, weak }: { total: number; maste
       aria-valuemin={0}
       aria-valuemax={total}
       aria-valuenow={mastered}
-      aria-label={`${mastered} of ${total} learned`}
+      aria-label={label ?? `${mastered} of ${total} learned`}
     >
       <span className="p-mastered" style={{ width: `${p(mastered)}%` }} />
       <span className="p-seen" style={{ width: `${p(otherSeen)}%` }} />

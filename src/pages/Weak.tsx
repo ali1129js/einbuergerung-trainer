@@ -1,36 +1,37 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { QuestionView } from "@/components/QuestionView";
+import { fill } from "@/lib/i18n";
 import { answerWeak, MASTERED_STREAK, startWeakSession, weakIds, weakSessionDone, type WeakSession } from "@/lib/progress";
 import { BY_ID } from "@/lib/questions";
+import { useLocale } from "@/state/LocaleContext";
 import { useProgress } from "@/state/ProgressContext";
 
 export function WeakList() {
   const { progress } = useProgress();
+  const { t } = useLocale();
   const ids = weakIds(progress);
   return (
     <>
       <div className="stack" style={{ gap: 4 }}>
-        <span className="eyebrow">Weak spots</span>
-        <h1>Questions to repeat</h1>
-        <p className="muted small">
-          A question stays here until you answer it right {MASTERED_STREAK} times in a row.
-        </p>
+        <span className="eyebrow">{t.weakEyebrow}</span>
+        <h1>{t.weakTitle}</h1>
+        <p className="muted small">{fill(t.weakIntro, { streak: MASTERED_STREAK })}</p>
       </div>
       {ids.length === 0 ? (
-        <p className="note">No weak spots right now. Practise or take a mock test, and anything you get wrong shows up here.</p>
+        <p className="note">{t.weakEmpty}</p>
       ) : (
         <>
           <Link href="/weak/practice" className="btn btn--green btn--block">
-            Practise weak spots ({ids.length})
+            {fill(t.practiseWeak, { count: ids.length })}
           </Link>
           <div className="card" style={{ padding: 0 }}>
             <table>
               <thead>
                 <tr>
-                  <th>Question</th>
-                  <th className="num">Wrong</th>
-                  <th className="num">Streak</th>
+                  <th>{t.colQuestion}</th>
+                  <th className="num">{t.colWrong}</th>
+                  <th className="num">{t.colStreak}</th>
                 </tr>
               </thead>
               <tbody>
@@ -63,6 +64,7 @@ export function WeakList() {
 
 export function WeakPractice() {
   const { progress, record } = useProgress();
+  const { t } = useLocale();
   const [session, setSession] = useState<WeakSession>(() => startWeakSession(weakIds(progress)));
   const [selected, setSelected] = useState<number | undefined>(undefined);
   const total = session.queue.length + session.cleared.length;
@@ -70,12 +72,10 @@ export function WeakPractice() {
   if (weakSessionDone(session))
     return (
       <div className="card stack">
-        <h2>{total ? "All weak spots cleared 🎉" : "No weak spots"}</h2>
-        <p className="muted">
-          {total ? `You answered all ${total} questions right twice in a row.` : "Nothing to repeat right now."}
-        </p>
+        <h2>{total ? t.weakCleared : t.weakNone}</h2>
+        <p className="muted">{total ? fill(t.weakClearedText, { total }) : t.weakNothing}</p>
         <Link href="/weak" className="btn btn--primary">
-          Back
+          {t.backPlain}
         </Link>
       </div>
     );
@@ -87,17 +87,17 @@ export function WeakPractice() {
     <>
       <div className="row">
         <Link href="/weak" className="small">
-          ← Weak spots
+          {t.weakBackLink}
         </Link>
         <span className="spacer" />
         <span className="small muted">
-          {session.cleared.length}/{total} cleared · {session.queue.length} left
+          {fill(t.weakSessionProgress, { cleared: session.cleared.length, total, left: session.queue.length })}
         </span>
       </div>
       <QuestionView
         key={`${id}-${session.cleared.length}-${session.queue.length}-${run}-${JSON.stringify(session.runs)}`}
         q={q}
-        label={`In a row: ${run}/${MASTERED_STREAK}`}
+        label={fill(t.inARow, { run, streak: MASTERED_STREAK })}
         selected={selected}
         reveal={selected !== undefined}
         onSelect={(i) => {
@@ -115,7 +115,7 @@ export function WeakPractice() {
             window.scrollTo(0, 0);
           }}
         >
-          Next →
+          {t.next}
         </button>
       </div>
     </>

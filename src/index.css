@@ -460,6 +460,32 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 /* theme picker and motion toggle */
 .theme-tools { display: flex; align-items: center; gap: 6px; }
+/* EN/DE chrome toggle in the top bar */
+.locale-toggle {
+  display: flex;
+  height: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--topbar-soft);
+  border: 1px solid transparent;
+}
+.locale-toggle button {
+  min-width: 40px;
+  padding: 0 10px;
+  border: 0;
+  background: transparent;
+  color: var(--nav-fg);
+  font: inherit;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.locale-toggle button[aria-pressed="true"] {
+  background: var(--hero-2);
+  color: var(--on-topbar);
+}
+.locale-toggle:hover { border-color: var(--nav-fg); }
+
 .theme-menu { position: relative; }
 .icon-btn {
   display: grid;

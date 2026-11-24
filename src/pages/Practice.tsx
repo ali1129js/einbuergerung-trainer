@@ -2,22 +2,25 @@ import { useMemo, useState } from "react";
 import { Link } from "wouter";
 import { TopicBar } from "@/components/AppShell";
 import { QuestionView } from "@/components/QuestionView";
+import { fill, practiceSetTitle } from "@/lib/i18n";
 import { isMastered, isWeak } from "@/lib/progress";
 import { PRACTICE_SETS, practiceSet } from "@/lib/practice";
 import { QUESTIONS, TOPIC_LABEL } from "@/lib/questions";
 import { shuffle } from "@/lib/random";
 import type { Topic } from "@/schema";
 import { TOPICS } from "@/schema";
+import { useLocale } from "@/state/LocaleContext";
 import { useProgress } from "@/state/ProgressContext";
 
 export function PracticeIndex() {
   const { progress } = useProgress();
+  const { locale, t } = useLocale();
   return (
     <>
       <div className="stack" style={{ gap: 4 }}>
-        <span className="eyebrow">Practice</span>
-        <h1>Choose a topic</h1>
-        <p className="muted small">Questions you haven't seen yet come first. You see the right answer straight away.</p>
+        <span className="eyebrow">{t.practiceEyebrow}</span>
+        <h1>{t.practiceTitle}</h1>
+        <p className="muted small">{t.practiceIntro}</p>
       </div>
       <div className="grid">
         {PRACTICE_SETS.map((s) => {
@@ -26,17 +29,25 @@ export function PracticeIndex() {
           const mastered = qs.filter((q) => isMastered(progress.entries[q.id])).length;
           const weak = qs.filter((q) => isWeak(progress.entries[q.id])).length;
           const isTopic = (TOPICS as readonly string[]).includes(s.title);
+          const title = practiceSetTitle(s.key, t, s.title);
           return (
             <Link key={s.key} href={`/practice/${s.key}`} className="card list-card">
               <div className="row" style={{ gap: 6 }}>
-                <h3 lang={isTopic ? "de" : undefined}>{s.title}</h3>
+                <h3 lang={isTopic ? "de" : undefined}>{title}</h3>
                 <span className="spacer" />
                 <span className="badge">{qs.length}</span>
               </div>
-              {isTopic && <span className="muted small">{TOPIC_LABEL[s.title as Topic]}</span>}
-              <TopicBar total={qs.length} seen={seen} mastered={mastered} weak={weak} />
+              {isTopic && locale === "en" && <span className="muted small">{TOPIC_LABEL[s.title as Topic]}</span>}
+              <TopicBar
+                total={qs.length}
+                seen={seen}
+                mastered={mastered}
+                weak={weak}
+                label={fill(t.topicBarLabel, { mastered, total: qs.length })}
+              />
               <span className="muted small">
-                {mastered} learned · {seen} seen{weak ? ` · ${weak} weak` : ""}
+                {fill(t.practiceStats, { mastered, seen })}
+                {weak ? fill(t.practiceStatsWeak, { weak }) : ""}
               </span>
             </Link>
           );
@@ -49,6 +60,7 @@ export function PracticeIndex() {
 export function PracticeSession({ setKey }: { setKey: string }) {
   const set = practiceSet(setKey);
   const { progress, record } = useProgress();
+  const { t } = useLocale();
   // Order is fixed when the session starts: unseen first, then weak, then the rest; random within each group.
   const [order] = useState(() => {
     if (!set) return [];
@@ -63,21 +75,20 @@ export function PracticeSession({ setKey }: { setKey: string }) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const byId = useMemo(() => new Map(QUESTIONS.map((q) => [q.id, q])), []);
 
-  if (!set) return <p className="alert">Unknown practice set.</p>;
+  if (!set) return <p className="alert">{t.unknownSet}</p>;
   const id = order[pos];
   const q = id ? byId.get(id) : undefined;
   const done = Object.keys(answers).length;
   const right = Object.entries(answers).filter(([k, v]) => byId.get(k)?.answerIndex === v).length;
+  const title = practiceSetTitle(set.key, t, set.title);
 
   if (!q)
     return (
       <div className="card stack">
-        <h2>Set finished 🎉</h2>
-        <p>
-          {right} of {done} correct.
-        </p>
+        <h2>{t.setFinished}</h2>
+        <p>{fill(t.setScore, { right, done })}</p>
         <Link href="/practice" className="btn btn--primary">
-          Back to topics
+          {t.backToTopics}
         </Link>
       </div>
     );
@@ -87,17 +98,17 @@ export function PracticeSession({ setKey }: { setKey: string }) {
     <>
       <div className="row">
         <Link href="/practice" className="small">
-          ← Topics
+          ← {t.backToTopics}
         </Link>
         <span className="spacer" />
         <span className="small muted">
-          {pos + 1}/{order.length} · {right}/{done} correct
+          {fill(t.practiceProgress, { pos: pos + 1, total: order.length, right, done })}
         </span>
       </div>
       <QuestionView
         key={q.id}
         q={q}
-        label={set.title}
+        label={title}
         selected={selected}
         reveal={selected !== undefined}
         onSelect={(i) => {
@@ -107,10 +118,10 @@ export function PracticeSession({ setKey }: { setKey: string }) {
       />
       <div className="sticky-actions">
         <button className="btn" disabled={pos === 0} onClick={() => setPos((p) => p - 1)}>
-          ← Back
+          {t.back}
         </button>
         <button className="btn btn--primary" onClick={() => setPos((p) => p + 1)}>
-          {selected === undefined ? "Skip →" : "Next →"}
+          {selected === undefined ? t.skip : t.next}
         </button>
       </div>
     </>

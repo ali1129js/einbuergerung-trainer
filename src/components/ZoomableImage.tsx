@@ -1,5 +1,7 @@
 import { useEffect, useId, useRef, useState, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent } from "react";
 import { createPortal } from "react-dom";
+import { fill } from "@/lib/i18n";
+import { useLocale } from "@/state/LocaleContext";
 
 const FOCUSABLE = 'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
@@ -8,6 +10,7 @@ const FOCUSABLE = 'button:not([disabled]), [href], input:not([disabled]), select
  * The trigger is its own button outside the answer buttons, so it never selects an answer.
  */
 export function ZoomableImage({ src, alt, title, className }: { src: string; alt: string; title?: string; className?: string }) {
+  const { t } = useLocale();
   const [open, setOpen] = useState(false);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const openBox = (e: ReactMouseEvent) => {
@@ -22,7 +25,7 @@ export function ZoomableImage({ src, alt, title, className }: { src: string; alt
         type="button"
         className="zoom-thumb"
         aria-haspopup="dialog"
-        aria-label={`Enlarge picture: ${alt}`}
+        aria-label={fill(t.enlargePicture, { alt })}
         title={title}
         onClick={openBox}
       >
@@ -44,6 +47,7 @@ export function ZoomableImage({ src, alt, title, className }: { src: string; alt
 }
 
 export function Lightbox({ src, alt, onClose, returnFocus }: { src: string; alt: string; onClose: () => void; returnFocus?: () => void }) {
+  const { t } = useLocale();
   const dialogRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const captionId = useId();
@@ -111,11 +115,11 @@ export function Lightbox({ src, alt, onClose, returnFocus }: { src: string; alt:
         className="lightbox__panel"
         role="dialog"
         aria-modal="true"
-        aria-label="Enlarged picture"
+        aria-label={t.enlargedPicture}
         aria-describedby={captionId}
         onKeyDown={onKeyDown}
       >
-        <button ref={closeRef} type="button" className="lightbox__close" aria-label="Close enlarged picture" onClick={onClose}>
+        <button ref={closeRef} type="button" className="lightbox__close" aria-label={t.closePicture} onClick={onClose}>
           <span aria-hidden="true">×</span>
         </button>
         <figure className="lightbox__figure">

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { browserKV } from "@/lib/storage";
 import { applyMotion, loadMotion, saveMotion, type Motion } from "@/lib/theme";
+import { useLocale } from "@/state/LocaleContext";
 
 const REDUCE_QUERY = "(prefers-reduced-motion: reduce)";
 
@@ -41,8 +42,9 @@ export function MotionToggle() {
     saveMotion(kv, motion);
   }, [kv, motion, reduced]);
 
+  const { t } = useLocale();
   const pressed = !reduced && motion === "animated";
-  const label = reduced ? "Animated background (reduced motion is on)" : "Animated background";
+  const label = reduced ? t.animatedBackgroundReduced : t.animatedBackground;
 
   return (
     <button

@@ -1,11 +1,14 @@
 import { TopicBar } from "@/components/AppShell";
 import { ThemeOptions } from "@/components/ThemePicker";
+import { fill } from "@/lib/i18n";
 import { topicStats } from "@/lib/progress";
 import { QUESTIONS, TOPIC_LABEL } from "@/lib/questions";
+import { useLocale } from "@/state/LocaleContext";
 import { useProgress } from "@/state/ProgressContext";
 
 export function ProgressPage() {
   const { progress, reset } = useProgress();
+  const { locale, t } = useLocale();
   const stats = topicStats(QUESTIONS, progress);
   const sum = stats.reduce(
     (a, s) => ({ total: a.total + s.total, seen: a.seen + s.seen, mastered: a.mastered + s.mastered, weak: a.weak + s.weak }),
@@ -14,55 +17,55 @@ export function ProgressPage() {
   return (
     <>
       <div className="stack" style={{ gap: 4 }}>
-        <span className="eyebrow">Progress</span>
-        <h1>By topic</h1>
+        <span className="eyebrow">{t.progressEyebrow}</span>
+        <h1>{t.progressTitle}</h1>
         <p className="muted small">
-          <span className="badge badge--green">learned</span> = right 2× in a row ·{" "}
-          <span className="badge badge--blue">seen</span> · <span className="badge badge--red">weak</span>
+          <span className="badge badge--green">{t.kpiLearned}</span> {t.progressLegendMid}{" "}
+          <span className="badge badge--blue">{t.kpiSeen}</span> · <span className="badge badge--red">{t.kpiWeak}</span>
         </p>
       </div>
       <section className="card stack">
         <div className="row">
-          <h2>Overall</h2>
+          <h2>{t.overall}</h2>
           <span className="spacer" />
-          <strong>
-            {sum.mastered}/{sum.total} learned
-          </strong>
+          <strong>{fill(t.overallLearned, { mastered: sum.mastered, total: sum.total })}</strong>
         </div>
-        <TopicBar {...sum} />
-        <span className="muted small">
-          {sum.seen} seen · {sum.weak} weak
-        </span>
+        <TopicBar {...sum} label={fill(t.topicBarLabel, { mastered: sum.mastered, total: sum.total })} />
+        <span className="muted small">{fill(t.progressStats, { seen: sum.seen, weak: sum.weak })}</span>
       </section>
       <div className="stack">
         {stats.map((s) => (
           <section key={s.topic} className="card stack" style={{ gap: 8 }}>
             <div className="row" style={{ gap: 6 }}>
               <h3 lang="de">{s.topic}</h3>
-              <span className="muted small">{TOPIC_LABEL[s.topic]}</span>
+              {locale === "en" && <span className="muted small">{TOPIC_LABEL[s.topic]}</span>}
               <span className="spacer" />
               <span className="small">
                 <strong>{s.mastered}</strong>/{s.total}
               </span>
             </div>
-            <TopicBar {...s} />
+            <TopicBar {...s} label={fill(t.topicBarLabel, { mastered: s.mastered, total: s.total })} />
             <span className="muted small">
-              {s.seen} seen · {s.weak} weak · accuracy {s.accuracy === null ? "–" : `${s.accuracy} %`}
+              {fill(t.progressAccuracy, {
+                seen: s.seen,
+                weak: s.weak,
+                accuracy: s.accuracy === null ? "–" : `${s.accuracy} %`,
+              })}
             </span>
           </section>
         ))}
       </div>
       <section className="card stack" aria-labelledby="appearance-h">
-        <h2 id="appearance-h">Appearance</h2>
+        <h2 id="appearance-h">{t.appearance}</h2>
         <ThemeOptions />
       </section>
       <button
         className="btn btn--danger"
         onClick={() => {
-          if (window.confirm("Delete all saved progress on this device?")) reset();
+          if (window.confirm(t.resetConfirm)) reset();
         }}
       >
-        Reset progress
+        {t.resetProgress}
       </button>
     </>
   );
