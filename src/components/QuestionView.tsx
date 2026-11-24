@@ -87,35 +87,32 @@ export function QuestionView({
 export function ExplanationBox({ q }: { q: Question }) {
   const e = q.explanation;
   const has = !!(e && (e.why || e.trap || e.trick));
+  if (!has) return null;
   return (
     <section className="explain" aria-label="Explanation">
       <p className="eyebrow" style={{ marginBottom: 6 }}>
         Explanation
       </p>
-      {has ? (
-        <dl style={{ margin: 0 }}>
-          {e.why && (
-            <>
-              <dt>Why</dt>
-              <dd>{e.why}</dd>
-            </>
-          )}
-          {e.trap && (
-            <>
-              <dt>Trap</dt>
-              <dd>{e.trap}</dd>
-            </>
-          )}
-          {e.trick && (
-            <>
-              <dt>Trick</dt>
-              <dd>{e.trick}</dd>
-            </>
-          )}
-        </dl>
-      ) : (
-        <p className="muted">Explanation coming soon</p>
-      )}
+      <dl style={{ margin: 0 }}>
+        {e.why && (
+          <>
+            <dt>Why</dt>
+            <dd>{e.why}</dd>
+          </>
+        )}
+        {e.trap && (
+          <>
+            <dt>Trap</dt>
+            <dd>{e.trap}</dd>
+          </>
+        )}
+        {e.trick && (
+          <>
+            <dt>Trick</dt>
+            <dd>{e.trick}</dd>
+          </>
+        )}
+      </dl>
     </section>
   );
 }

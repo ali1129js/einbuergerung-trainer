@@ -50,5 +50,5 @@ Vite + React 18 + strict TypeScript, hash routing (wouter). Mobile-first; German
   Weak spots (list + practice until right twice in a row), Progress per topic.
 - Progress is stored in `localStorage` (`einb-trainer.progress.v1`) and validated with zod; corrupt data is
   kept untouched under a `.backup-<timestamp>` key and the app starts fresh with a warning banner.
-- Optional `explanation: { why?, trap?, trick? }` per question; shows "Explanation coming soon" when absent.
+- Every question has a why / trap / trick explanation. `tests/questions.test.ts` requires all three on all 310 questions. The explanation box is hidden if a future question has no text.
 - PWA: `public/manifest.webmanifest` + icons (installable / add to home screen). No service worker yet (no offline cache).
