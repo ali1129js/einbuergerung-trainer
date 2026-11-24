@@ -47,4 +47,4 @@ Vite + React 18 + strict TypeScript, hash routing (wouter). Mobile-first; German
 - Progress is stored in `localStorage` (`einb-trainer.progress.v1`) and validated with zod; corrupt data is
   kept untouched under a `.backup-<timestamp>` key and the app starts fresh with a warning banner.
 - Every question has a why / trap / trick explanation. `tests/questions.test.ts` requires all three on all 310 questions. The explanation box is hidden if a future question has no text.
-- PWA: `public/manifest.webmanifest` + icons (installable / add to home screen). No service worker yet (no offline cache).
+- PWA: `public/manifest.webmanifest` + icons (installable / add to home screen). A service worker (vite-plugin-pwa, `registerType: autoUpdate`) precaches the app shell, the bundled question bank, and the 13 question pictures, so a first visit online can still run Practice offline. New deploys replace the cache (`skipWaiting`, `cleanupOutdatedCaches`) so an old worker cannot stick around after an update.
